@@ -1,0 +1,58 @@
+<ng-container *ngIf="!fy_trans">
+  <p-dialog header="{{title}}" [(visible)]="visible!" [modal]="true" [maximizable]="true"  [breakpoints]="{ '960px': '95vw' }" [style]="{ width: widthInit }" (onHide)="closeModal()">
+    <div class="m-2">
+      <ng-content select="[modal-body]"></ng-content>
+    </div>
+  </p-dialog>
+</ng-container>
+<ng-container *ngIf="fy_trans">
+  <p-dialog header="{{title}}" [(visible)]="visible!" [modal]="true" [maximizable]="true"
+    [style]="{width: '98vw' }" (onHide)="closeModal()">
+    <div class="m-2">
+      <ng-content select="[modal-body-trans]"></ng-content>
+    </div>
+  </p-dialog>
+</ng-container>
+
+
+<!-- Button trigger modal invisible -->
+<!-- <button type="button" class="invisible-button" id="{{id}}" data-bs-toggle="modal" attr.data-bs-target="#fyModal{{id}}">
+  Launch demo modal
+</button> -->
+<!-- <ng-container *ngIf="!fy_trans">
+  <div class="modal fade"  id="fyModal{{id}}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="fyModalLabel" aria-hidden="true">
+    <div [ngClass]="fy_size!" class="modal-dialog modal-lg">
+      <div class="modal-content content">
+        <div class="modal-header border-0 p-3">
+          <h1 class="modal-title fs-5 fy-modal-title mx-2 " id="fyModalLabel">{{title}}</h1>
+          <button type="button" class="btn-close mx-2 fy-btn-close"
+             data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ng-content select="[modal-body]"></ng-content>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>
+<ng-container *ngIf="fy_trans">
+  <div class="modal fade" id="fyModal{{id}}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="fyModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content content-trans">
+      <div class="modal-body ">
+        <button type="button" class="btn-close mx-2 fy-btn-close-trans float-end"
+        data-bs-dismiss="modal"
+       aria-label="Close"></button>
+       <div class="row p-0 m-0 w-100">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <ng-content select="[modal-body-trans]" ></ng-content>
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+</ng-container> -->

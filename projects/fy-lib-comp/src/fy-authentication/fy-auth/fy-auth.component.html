@@ -1,0 +1,22 @@
+<div class="container-fluid vh-100 bg-auth">
+    <div class="row  d-flex justify-content-center align-items-center vh-100">
+        <div class="col-lg-6 col-md-7 col-sm-12 ">
+            <fy-card-form [fyClass]="'fy-card-form-login float-end'">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-md-8">
+                        <div class="img-logo-long-auth py-4">
+                            <ng-content select="[img-logo-auth]"></ng-content>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container">
+                    <ng-content select="[form-auth]"></ng-content>
+                </div>
+            </fy-card-form>
+        </div>
+
+        <div class="col-lg-6 col-md-5  ">
+        </div>
+    </div>
+</div>

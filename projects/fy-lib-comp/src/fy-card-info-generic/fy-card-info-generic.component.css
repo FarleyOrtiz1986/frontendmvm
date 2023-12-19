@@ -1,0 +1,77 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: var(--fy-white);
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, 125);
+    border-radius: var(--fy-border-radius);
+    box-shadow: var(--fy-box-shadow);
+    margin-top: 50px !important;
+    
+}
+
+.avatar-lg {
+    width: 80px!important;
+    height: 80px!important;
+    
+}
+
+.avatar {
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+    height: 80px !important;
+    width: 150px !important;
+    transition: all .2s ease-in-out;
+    position: relative;
+    top: -30px;
+     
+}
+
+.avatar img {
+    width: 100%;
+    filter: var(--fy-drop-shadow);
+}
+
+.text-xs {
+    font-size: 1rem!important;
+}
+
+.text-xs {
+    line-height: 1.25;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+hr.horizontal.dark {
+    background-image: linear-gradient(90deg,transparent,rgba(0,0,0,.4),transparent);
+}
+
+hr.horizontal {
+    background-color: transparent;
+}
+hr {
+    border-top: none!important;
+    height: 1px;
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25;
+}
+

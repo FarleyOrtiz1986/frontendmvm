@@ -1,0 +1,31 @@
+ 
+ <ng-container *ngIf="!typePassword">
+    <input *ngIf="downloadOk" #inputRef [ngClass]="fyClass!" [(ngModel)]="value" (ngModelChange)="onChange($event)"
+    [type]="type!" [placeholder]="placeholder!" [id]="id!" />
+ </ng-container>
+   
+<ng-container *ngIf="typePassword">
+    <div class="password-container">
+        <input
+          *ngIf="downloadOk"
+          #inputRef
+          [ngClass]="fyClass!"
+          [(ngModel)]="value"
+          (ngModelChange)="onChange($event)"
+          [type]="showPassword && typePassword ? 'text' : 'password'"
+          [placeholder]="placeholder!"
+          [id]="id!"
+          class="password-input" 
+        />
+      
+        <span (click)="togglePasswordVisibility()" *ngIf="showPassword" class="icon-type-password material-icons">
+          visibility_off
+        </span>
+        <span (click)="togglePasswordVisibility()" *ngIf="!showPassword" class="icon-type-password material-icons">
+          visibility
+        </span>
+      </div>
+ </ng-container>
+   
+
+  

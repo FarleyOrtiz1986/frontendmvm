@@ -1,0 +1,74 @@
+
+<ng-container *ngIf="object !== undefined">
+  <div class="wrapper">
+    <div class="profile-card js-profile-card">
+      <div class="profile-card__img">
+        <img src="{{object.url_avatar}}" alt="profile card" loading="lazy">
+      </div>
+      <div class="profile-card__cnt js-profile-cnt">
+        <div class="profile-card__name">{{object.nombres}} {{object.apellidos}}</div>
+        <ng-container *ngIf="object.estado ; else estateInactive">
+          <span class="badge rounded-pill text-bg-success fy-badge" >Activo</span>
+        </ng-container>
+        <ng-template #estateInactive>
+          <span class="badge rounded-pill text-bg-danger fy-badge" >Inactivo</span>
+        </ng-template>
+        <div class="profile-card-social">
+          <a href="mailto:{{object.email}}" class="profile-card-social__item " target="_blank">
+            <span class="icon-font">
+              <span class="material-icons">
+                email
+              </span>
+            </span>
+          </a>
+          <a href="tel:{{object.telefono_celular}}" class="profile-card-social__item " 
+          target="_blank">
+            <span class="icon-font">
+              <span class="material-icons">
+                phone_iphone 
+              </span>
+            </span>
+          </a> 
+          <a href="https://api.whatsapp.com/send?phone={{object.telefono_whatsapp}}" 
+          class="profile-card-social__item " target="_blank">
+            <span class="icon-font">
+              <i class=" fa-brands fa-whatsapp"></i>
+            </span>
+          </a>
+        </div>
+        <div class="profile-card-social">
+          <div class="row">
+            <div class="col-12">
+              <a  href="javascript:void(0);" (click)="masVisible = !masVisible">
+                <ng-container *ngIf="!masVisible, else verMenos">
+                  Ver más
+                </ng-container>
+                <ng-template #verMenos>
+                  Ver menos
+                </ng-template>
+              </a> 
+            </div>
+          </div>
+        </div>
+        <div class="profile-card-social mt-1" style="background-color: rgba(196, 190, 190, 0.39); border-radius: var(--fy-border-radius);">        
+            <ng-container *ngIf="masVisible">
+              <div class="row mt-2">
+                <div class="col-12">
+                  <h5 >{{object.email}} </h5>
+                 
+                </div>
+                <div class="col-md-6">
+                  <h5 >{{object.telefono_celular}} </h5>
+                </div>
+                <div class="col-md-6">
+                  <h5 >{{object.telefono_whatsapp}} </h5>
+                </div>
+              </div>
+            </ng-container>        
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>
+

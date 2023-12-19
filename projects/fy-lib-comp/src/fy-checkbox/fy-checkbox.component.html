@@ -1,0 +1,15 @@
+<div class="checkbox">
+    <input type="checkbox" attr.id="{{id}}" checked="" 
+    [(ngModel)]="checked" 
+    (ngModelChange)="onModelChange($event)"  [ngClass]="fyClass"  >
+    <label attr.for="{{id}}" class="label-ckeckbox" >{{label}}</label>
+</div>
+
+
+
+<!-- <div class="flex align-items-center gap-1">
+    <p-checkbox  [(ngModel)]="checked" [disabled]="disabled"
+    (ngModelChange)="onModelChange($event)" value="" [inputId]="id" [binary]="true" inputId="binary"
+    [label]="label"
+    ></p-checkbox>
+  </div> -->

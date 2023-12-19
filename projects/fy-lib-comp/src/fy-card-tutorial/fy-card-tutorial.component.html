@@ -1,0 +1,33 @@
+<div class="container-movie">
+    <div [style.background-image]="'url(' + img + ')'" class="bg-img-movie">
+        <div class="bg-grad-movie">
+            <span class=" material-icons info-movie " rel="tooltip" title="{{textInfo}}">
+                add
+            </span>
+            <span  (click)="starVideo()" class=" material-icons play-movie ">
+                play_arrow
+            </span>
+            <div class="text-white  mx-2  bg-text-movie">
+                {{textTitle}}
+                <br>
+                <hr style="color: yellow; margin-top: 2px !important; margin-bottom: 2px !important;" class="mp0">
+                <div class="row">
+                    <div class="col-auto">
+                        <p style="color: yellow; font-size: 13px; margin-bottom: 0px !important;">
+                            <span class=" material-icons " style="font-size: 11px;">schedule</span>
+                            {{ min }} min
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p
+                            style="text-transform: uppercase; color: yellow; font-size: 13px; float:right; margin-bottom: 0px !important;">
+                            {{genero}}
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

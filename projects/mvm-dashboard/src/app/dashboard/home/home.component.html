@@ -1,0 +1,405 @@
+<div class="container-fluid" style="max-height: 100vh;">
+    <div style="min-height: 10vh; max-height: 10vh; ">
+        <div class="row mp0 d-flex  align-items-center">
+            <div class="col-12 mp0 ">
+                <fy-navbar (goToProfileEventEmitter)="goToProfile()" (goToLogoutEventEmitter)="goToLogout()"
+                    [imgProfile]="this.url_usuario" [name]="nombre" [fyClassBadge]="fyClassBadge"
+                    [textEstate]="textEstate">
+                </fy-navbar>
+            </div>
+        </div>
+    </div>
+    <div style="min-height: 90vh; max-height: 90vh; ">
+        <div class="row mp0" style="min-height: 100%; ">
+            <div class="col-md-3 mp0">
+                <div class="content-card-list-crm" style="position: relative;">
+                    <div class="horizontal-menu-clientes-container">
+                        <fy-button (click)="actualizarLista()" [type]="'button'"
+                            [fyClass]="'btn btn-outline-info btn-sm  text-black '" style="margin-left: 4px !important;">
+                            <i class="fa-solid fa-arrows-rotate"></i>
+                        </fy-button>
+                        <fy-button (click)="toggleBoxListClientesCrmBusquedaYFiltros()" [type]="'button'"
+                            [fyClass]="'btn btn-outline-info btn-sm  text-black '" style="margin-left: 4px !important;">
+                            Menu
+                            <i class="fa-solid fa-arrow-right "></i>
+                        </fy-button>
+                    </div>
+                    <br>
+                    <ng-container *ngIf="cargoClientes == false ; else cargoClientesVisible">
+                        <ng-container *ngFor="let index of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]">
+                            <div class="card-list-crm-load load">
+                            </div>
+                        </ng-container>
+                    </ng-container>
+                    <ng-template #cargoClientesVisible>
+                        <!-- <ng-container *ngFor="let cliente of  clientesSelected  ; let clienteCol = index"> -->
+                        <div *ngFor="let cliente of  clientesSelected  ; let indexCliente = index" class="card-list-crm"
+                            [ngClass]="{ 'selected-card': cliente.id === selectedClientId }">
+                            <div (click)="selectClient(cliente, indexCliente )" [attr.id]="'client_' + cliente.id">
+                                <div class="row mp0">
+                                    <div class="col-8 mp0 d-flex  align-items-center">
+                                        <p class="name-list-crm mp0">
+                                            <ng-container *ngIf="cliente.id">
+                                                <span class="text-primary">
+                                                    {{cliente.id}}
+                                                </span>
+                                                <br>
+                                            </ng-container>
+
+                                            <ng-container *ngIf="cliente.nombreCompleto">
+                                                {{cliente.nombreCompleto}}
+                                            </ng-container>
+                                        </p>
+                                    </div>
+                                    <div class="col-4 mp0 d-flex justify-content-center align-items-center">
+                                        <ng-container *ngIf="cliente.estatus">
+                                            <p-tag [value]="cliente.estatus" [severity]="getSeverity(cliente.estatus)">
+                                            </p-tag>
+                                        </ng-container>
+                                    </div>
+                                </div>
+                                <div class="row mp0">
+                                    <div class="col-6 mp0">
+                                        <p class="mp0 asinged-list-crm">
+                                            <ng-container *ngIf="cliente.estatus">
+                                                Asignado:
+                                                <br>
+                                                <ng-container
+                                                    *ngIf="cliente && cliente.fecha_asignacion; else sinFechaAsignadoCliente">
+                                                    {{cliente.fecha_asignacion | date:'mediumDate'}} -
+                                                    {{cliente.fecha_asignacion | date:'shortTime'}}
+                                                </ng-container>
+                                                <ng-template #sinFechaAsignadoCliente>
+                                                    No asignado
+                                                </ng-template>
+                                            </ng-container>
+                                        </p>
+                                    </div>
+                                    <div class="col-6 mp0">
+                                        <p class="mp0 ultima-llamada-list-crm">
+                                            <ng-container
+                                                *ngIf="cliente.llamadas && cliente.llamadas.length > 0 && cliente.llamadas[0] ; else sinUltimaLlamada">
+                                                Ultima llamada:
+                                                <br>
+                                                {{cliente.llamadas[0].fecha_llamada | date:'mediumDate'}} -
+                                                {{cliente.llamadas[0].fecha_llamada | date:'shortTime'}}
+                                            </ng-container>
+                                            <ng-template #sinUltimaLlamada>
+                                                Ultima llamada:
+                                                <br>
+                                                No se ha llamado
+                                            </ng-template>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- </ng-container> -->
+
+
+                        <ng-container *ngIf="clientes != undefined && clientes.length == 0 ">
+                            <h6 class="bg-mesage text-white m-2">
+                                No tienes clientes asignados
+                            </h6>
+                        </ng-container>
+
+                    </ng-template>
+
+
+
+                </div>
+            </div>
+            <div class="col mp0">
+                <div class="row mp0">
+                    <div class="col-6 mp0">
+                        <div class="row mp0">
+                            <div class="col mp0"></div>
+                            <div class="col-auto mp0">
+                                <fy-button (click)="scrollContent('up')" [type]="'button'"
+                                    [fyClass]="'btn btn-outline-info btn-sm  text-black '"
+                                    style="margin-left: 4px !important;">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </fy-button>
+                                <fy-button (click)="scrollContent('down')" [type]="'button'"
+                                    [fyClass]="'btn btn-outline-info btn-sm  text-black '"
+                                    style="margin-left: 4px !important; margin-right: 8px;">
+                                    <i class="fa-solid fa-arrow-right "></i>
+                                </fy-button>
+                            </div>
+                        </div>
+                        <div class="card-list-crm" style="height: 49vh;  overflow: auto;">
+
+                            <div class="row mp0">
+                                <div class="col-auto mp0">
+                                    <p  class="fondo-p">
+                                        <strong>ID </strong>
+                                        <ng-container
+                                            *ngIf="this.clienteSeleccionado && this.clienteSeleccionado.id; else sinId">
+                                            {{this.clienteSeleccionado.id}}
+                                        </ng-container>
+                                        <ng-template #sinId>
+                                            xx
+                                        </ng-template>
+                                    </p>
+                                </div>
+                                <div class="col-auto mp0">
+                                    <p class="fondo-p">
+                                        <strong>Cliente </strong>
+                                        <ng-container
+                                            *ngIf="this.clienteSeleccionado && this.clienteSeleccionado.nombres; else sinNombre">
+                                            {{this.clienteSeleccionado.nombres}}
+                                        </ng-container>
+                                        <ng-template #sinNombre>
+                                            xxxxxx xxxxxx xxxxxx xxxxxx
+                                        </ng-template>
+                                        <ng-container
+                                            *ngIf="this.clienteSeleccionado && this.clienteSeleccionado.apellido">
+                                            {{this.clienteSeleccionado.apellido}}
+                                        </ng-container>
+                                    </p>
+                                </div>
+                                <div class="col-auto mp0">
+                                    <p class="fondo-p">
+                                        <strong>Teléfono </strong>
+                                        <ng-container
+                                            *ngIf="this.clienteSeleccionado && this.clienteSeleccionado.telefono; else sinTelefono">
+                                            {{this.clienteSeleccionado.telefono}}
+                                        </ng-container>
+                                        <ng-template #sinTelefono>
+                                            xxxxxxxxx
+                                        </ng-template>
+                                    </p>
+                                </div>
+                                <div class="col-auto mp0">
+                                    <p class="fondo-p">
+                                        <strong>Correo electrónico </strong>
+                                        <ng-container
+                                            *ngIf="this.clienteSeleccionado && this.clienteSeleccionado.correo; else sinCorreo">
+                                            {{this.clienteSeleccionado.correo}}
+                                        </ng-container>
+                                        <ng-template #sinCorreo>
+                                            xxxxxxxxx@xxxxxxxxxxxxx
+                                        </ng-template>
+                                    </p>
+                                </div>
+                                <div class="col-auto mp0">
+                                    <p class="fondo-p">
+                                        <strong>Campaña </strong>
+                                        <ng-container
+                                            *ngIf="this.clienteSeleccionado && this.clienteSeleccionado.campana; else sinCapana">
+                                            {{this.clienteSeleccionado.campana}}
+                                        </ng-container>
+                                        <ng-template #sinCapana>
+                                            xxxxxxxxx xxxxxxxx
+                                        </ng-template>
+                                    </p>
+                                </div>
+                                <div class="col-auto mp0">
+                                    <p class="fondo-p">
+                                        <strong>Asignación </strong>
+                                        <ng-container
+                                            *ngIf="clienteSeleccionado && clienteSeleccionado.fecha_asignacion; else sinFechaAsignado">
+                                            {{clienteSeleccionado.fecha_asignacion | date:'mediumDate'}} -
+                                            {{clienteSeleccionado.fecha_asignacion | date:'shortTime'}}
+                                        </ng-container>
+                                        <ng-template #sinFechaAsignado>
+                                            xx-xx-xx-xx-xx
+                                        </ng-template>
+                                    </p>
+                                </div>
+                                
+                                <div class="col-auto mp0">
+                                    <p class="fondo-p">
+                                        <strong>Ultima llamada </strong>
+                                        <ng-container
+                                                    *ngIf="clienteSeleccionado && clienteSeleccionado.llamadas && clienteSeleccionado.llamadas.length > 0 && clienteSeleccionado.llamadas[0] ; else sinUltimaLlamadaClienteSeleccionado">
+
+                                                    {{clienteSeleccionado.llamadas[0].fecha_llamada |
+                                                    date:'mediumDate'}} -
+                                                    {{clienteSeleccionado.llamadas[0].fecha_llamada | date:'shortTime'}}
+                                                </ng-container>
+                                                <ng-template #sinUltimaLlamadaClienteSeleccionado>
+                                                    No se ha llamado
+                                                </ng-template>
+                                    </p>
+                                </div>
+                                <form [formGroup]="formCambiarEstadoCliente" (ngSubmit)="cambiarEstadoCliente()">
+                                    <div class="row mp0">
+                                        <div class="col ">
+
+                                            <div class="form-group mt-1">
+                                                <fy-label-form>Nuvo estado</fy-label-form>
+                                                <fy-select formControlName="nuevoEstado" [multiple]="false"
+                                                    [bindValue]="'id'" [items]="tiposEstatus!"
+                                                    [bindLabel]="'nombre'"></fy-select>
+                                                <fy-error-form [visible]="submitedCambiarEstadoCliente"
+                                                    [errors]="nuevoEstado!.errors"></fy-error-form>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-auto d-flex align-items-end">
+                                            <fy-button [type]="'submit'" [fyClass]="'btn btn-success'">
+                                                Cambiar
+                                            </fy-button>
+
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                        <div class="card-list-crm" style="height: 34vh;">
+                            <form [formGroup]="formRegistroLlamada" (ngSubmit)="registrarLlamada()">
+                                <div class="row ">
+                                    <div class="col-12  ">
+                                        <div class="form-group mt-1">
+                                            <fy-label-form>
+                                                Registrar observaciones
+                                                <fy-tooltips [typeTooltips]="'icon'" [icon]="'info'"
+                                                    [fyClass]="'text-info'"
+                                                    [text]="'Registre ls observaciones sobre la llamada al cliente elegido'"></fy-tooltips>
+                                            </fy-label-form>
+                                            <fy-textarea formControlName="observacionesLlamada"
+                                                [id]="'observacionesLlamada'"></fy-textarea>
+                                            <!-- <fy-input formControlName="observacionesLlamada"
+                                                [id]="'observacionesLlamada'" [type]="'text'"></fy-input> -->
+                                            <fy-error-form [visible]="submitedRegistroLlamada"
+                                                [errors]="observacionesLlamada!.errors"></fy-error-form>
+                                        </div>
+                                    </div>
+                                    <div class="col-12  " style="margin-top: 10px !important;">
+
+                                        <fy-button [type]="'submit'" [fyClass]="'btn btn-success'">
+                                            Guardar
+                                        </fy-button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="col-6 mp0">
+                        <div class="card-list-crm" style="height: 88vh; overflow-y: auto;">
+                            <div [ngClass]="{'with-content': listadoLlamada && listadoLlamada.length > 0}">
+                                <ng-container *ngFor="let llamada of  listadoLlamada  ; let indexLlamada = index">
+                                    <div class="card-coment">
+                                        <div class="row mp0">
+                                            <div class="col mp0">
+                                                <p class="mp0"
+                                                    style="font-size: 12px; font-weight: 500; color: var(--fy-primary);">
+                                                    <ng-container
+                                                        *ngIf="llamada.nombre_usuario; else sinNombreAsesorLlamada">
+                                                        {{llamada.nombre_usuario}}
+                                                    </ng-container>
+                                                    <ng-template #sinNombreAsesorLlamada>
+                                                        No indicado
+                                                    </ng-template>
+
+                                                </p>
+                                            </div>
+                                            <div class="col-auto mp0">
+                                                <p class="mp0"
+                                                    style="font-size: 12px; font-weight: 500; color: var(--fy-primary);">
+                                                    <ng-container *ngIf="llamada.fecha_llamada; else sinFechaLlamada">
+                                                        {{llamada.fecha_llamada | date:'mediumDate'}} -
+                                                        {{llamada.fecha_llamada | date:'shortTime'}}
+                                                    </ng-container>
+                                                    <ng-template #sinFechaLlamada>
+                                                        No indicado
+                                                    </ng-template>
+
+
+                                                </p>
+                                            </div>
+                                            <div class="col-12 mp0">
+                                                <p class="mp0" style="font-size: 15px; font-weight: 400; color: black;">
+                                                    <ng-container
+                                                        *ngIf="llamada.observaciones; else sinobservacionesLlamada">
+                                                        {{llamada.observaciones }}
+                                                    </ng-container>
+                                                    <ng-template #sinobservacionesLlamada>
+                                                        No indicadas
+                                                    </ng-template>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ng-container>
+                            </div>
+
+
+
+                            <ng-container *ngIf="listadoLlamada && listadoLlamada.length ==  0">
+                                <h6 class="bg-mesage text-white m-2">
+                                    Sin llamadas asociadas
+                                </h6>
+                            </ng-container>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Menu de la lista de clientes -->
+<div [@slideInOut]="isBoxVisibleListClientesCrm" class="box-menu-list-clientes-crm">
+    <!-- Contenido de tu cuadro -->
+    <h6 class="bg-mesage text-white m-2">
+        Opciones sobre la lista clientes
+    </h6>
+
+    <form [formGroup]="formFiltrosYBusquedaClietes" (ngSubmit)="sinAccion()">
+        <div class="row m-2">
+            <div class="col-12 m-0-p-0 ">
+                <a href="javascript:void(0);" (click)="quitarFiltrosClientes()" class="float-end mp0"
+                    style="font-size: 12px;"> Quitar filtros </a>
+            </div>
+            <div class="col m-0-p-0 ">
+                <div class="form-group mt-1">
+                    <fy-label-form>
+                        Palabra clave
+                        <fy-tooltips [typeTooltips]="'icon'" [icon]="'info'" [fyClass]="'text-info'"
+                            [text]="'Esta busqueda se ejecuta por id, nombre, correo y Teléfono'"></fy-tooltips>
+                    </fy-label-form>
+                    <fy-input formControlName="palabraClaveClientes" [id]="'palabraClaveClientes'"
+                        [type]="'text'"></fy-input>
+                    <fy-error-form [visible]="submitedFormFiltrosYBusquedaClietes"
+                        [errors]="palabraClaveClientes!.errors"></fy-error-form>
+                </div>
+            </div>
+            <div class="col-auto m-0-p-0  d-flex align-items-end">
+                <fy-button (click)="searchBuscarClientePalabraClave()" [type]="'button'" [fyClass]="'btn btn-success '">
+                    Buscar
+                </fy-button>
+            </div>
+            <div class="col-12 mp0">
+                <hr>
+            </div>
+            <div class="col m-0-p-0">
+                <div class="form-group mt-1">
+                    <fy-label-form>Estatus</fy-label-form>
+                    <fy-select formControlName="statusCliente" [multiple]="false" [bindValue]="'id'"
+                        [items]="tiposEstatus!" [bindLabel]="'nombre'"></fy-select>
+                    <fy-error-form [visible]="submitedFormFiltrosYBusquedaClietes "
+                        [errors]="statusCliente!.errors"></fy-error-form>
+
+                </div>
+            </div>
+            <div class="col-auto m-0-p-0  d-flex align-items-end">
+                <fy-button (click)="searchBuscarClientePorStatus()" [type]="'button'" [fyClass]="'btn btn-success '">
+                    Buscar
+                </fy-button>
+            </div>
+        </div>
+
+
+    </form>
+
+
+
+</div>

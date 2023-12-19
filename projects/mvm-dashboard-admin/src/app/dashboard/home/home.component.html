@@ -1,0 +1,488 @@
+<fy-container-dashboard>
+
+    <fy-navbar (goToLogoutEventEmitter)="goToLogout()" [typeUser]="'AdminSingle'" [imgProfile]="this.url_usuario"
+        [currentPage]="'MVM CRM'" [name]="'Adminisrador'" fy-nabvar>
+    </fy-navbar>
+
+    <div class="row m-0 p-0 " admin>
+
+        <div class="col-12">
+            <h6 class="bg-mesage text-white m-2">
+                <fy-button (click)="visibleModalStatus = true" [type]="'button'"
+                [fyClass]="'btn btn-info btn-sm  text-black'" fy-button-lider>
+               Configurar status
+                <i class="fa-solid fa-arrow-right "></i>
+            </fy-button>
+            </h6>
+        </div>
+
+        <div class="col-12">
+            <ng-container *ngIf="clientes && clientes.length == 0">
+                <fy-button (click)="visibleModalNuevoCliente  = true" [type]="'button'"
+                    [fyClass]="'btn btn-outline-info btn-sm  text-black'" fy-button-lider>
+                    Nuevo cliente
+                    <i class="fa-solid fa-arrow-right "></i>
+                </fy-button>
+            </ng-container>
+        </div>
+        <div class="col-12">
+            <fy-card>
+                <fy-table [title]="'Gestión de clientes'" 
+                [objects]="clientes"  [value_id]="'id'" [colFixed]="true"
+                    [cols]="colsClientes" [paginator]="true" [scrollable]="true" [visibleTable]="false"
+                    [downloadObjectsOK]="cargoClientes" [selectionMode]="'multiple'" 
+                    [SelectionSheckbox]="true" 
+                    [importExcel]="true" (eventImportExcel)="importarExcelDeClientes($event)"
+                    [newElement]="true" (eventNewElement)="nuevoCliente()"
+                    (eventUseSelection)="usarSeleccionDeClientes($event)" 
+                    [edit]="true" [update]="true" [more]="true"  (eventMore)="verDetallesDeEsteCliente($event)" (eventUpdate)="editarEsteCliente($event)"
+                    ></fy-table>
+            </fy-card>
+        </div>
+
+        <div class="col-12">
+            <hr>
+        </div>
+
+
+        <div class="col-12">
+            <ng-container *ngIf="usuarios && usuarios.length == 0">
+                <fy-button (click)="visibleModalNuevoUsuario = true" [type]="'button'"
+                    [fyClass]="'btn btn-outline-info btn-sm  text-black'" fy-button-lider>
+                    Nuevo asesor
+                    <i class="fa-solid fa-arrow-right "></i>
+                </fy-button>
+            </ng-container>
+        </div>
+        <div class="col-12 " style="padding-bottom: 40px;">
+            <fy-card>
+                <fy-table [title]="'Gestión de asesores'" [objects]="usuarios" [value_id]="'id'" [colFixed]="true"
+                    [cols]="colsUsuarios" [paginator]="true" [scrollable]="true" [visibleTable]="false"
+                    [downloadObjectsOK]="cargoUsuarios" [selectionMode]="'multiple'" [SelectionSheckbox]="true" 
+                    [edit]="true" [update]="true" [importExcel]="false" (eventUpdate)="editarEsteAsesor($event)"
+                    [newElement]="true" (eventNewElement)="nuevoAsesor()" (eventUseSelection)="usarSeleccionDeAsesores($event)"
+                    [more]="true"  (eventMore)="verDetallesDeEsteAsesor($event)" 
+                    ></fy-table>
+            </fy-card>
+        </div>
+    </div>
+</fy-container-dashboard>
+
+
+
+<fy-modal [fy_trans]="false" [widthInit]="'80vw'" [title]="'Gestión de clientes asesores'"
+    [id]="'visibleModalGestionSeleccionAsesores'" [visible]="visibleModalGestionSeleccionAsesores"
+    (eventCloseModal)="visibleModalGestionSeleccionAsesores = false"
+    (eventOpenModal)="visibleModalGestionSeleccionAsesores = true">
+    <div class="row d-flex justify-content-center align-items-center" modal-body>
+        <div class="col-md-12">
+            <a href="javascript:void(0);" class="float-end me-2"
+                            style="color: red; font-size: 13px;" 
+                           (click)="eliminarMultiplesAsesores()">Eliminar la selección</a> 
+        </div>
+        <div class="col-md-12">
+            <div class=" bg-mesage text-white mt-3">
+
+                Tiene {{ asesoresSeleccionados!.length }} asesores seleccionados
+            </div>
+        </div>
+    </div>
+</fy-modal>
+
+<fy-modal [fy_trans]="false" [widthInit]="'80vw'" [title]="'Gestión de llamadas'" [id]="'visibleModalLlamadas'"
+    [visible]="visibleModalLlamadas" (eventCloseModal)="visibleModalLlamadas = false"
+    (eventOpenModal)="visibleModalLlamadas = true">
+    <fy-table [title]="'Gestión de llamadas'" 
+                [objects]="llamadas"  [value_id]="'id'" [colFixed]="true"
+                    [cols]="colsLlamadas" [paginator]="true" [scrollable]="true" 
+                    [downloadObjectsOK]="cargoLlamadas" [selectionMode]="'multiple'" [SelectionSheckbox]="false" 
+                    [importExcel]="false" 
+                    [newElement]="false" 
+                    [edit]="true" [deletee]="true"   (eventDelete)="eliminarEstaLlamada($event)"
+                    modal-body ></fy-table>
+</fy-modal>
+
+
+
+
+<fy-modal [fy_trans]="false" [widthInit]="'80vw'" [title]="'Gestión de llamadas'" [id]="'visibleModalLlamadasAsesor'"
+    [visible]="visibleModalLlamadasAsesor" (eventCloseModal)="visibleModalLlamadasAsesor = false"
+    (eventOpenModal)="visibleModalLlamadasAsesor = true">
+    <fy-table [title]="'Gestión de llamadas'" 
+                [objects]="llamadasAsesor"  [value_id]="'id'" [colFixed]="true"
+                    [cols]="colsLlamadasAsesor" [paginator]="true" [scrollable]="true" [visibleTable]="true"
+                    [downloadObjectsOK]="cargoLlamadasAsesor" [selectionMode]="'multiple'" [SelectionSheckbox]="false" 
+                    [importExcel]="false" 
+                    [newElement]="false" 
+                    [edit]="true" [deletee]="true"   (eventDelete)="eliminarEstaLlamadaDeAsesor($event)"
+                    modal-body ></fy-table>
+</fy-modal>
+
+
+
+<fy-modal [fy_trans]="false" [widthInit]="'50vw'" [title]="'Gestión de status'" [id]="'visibleModalStatus'"
+    [visible]="visibleModalStatus" (eventCloseModal)="visibleModalStatus = false"
+    (eventOpenModal)="visibleModalStatus = true">
+    <div class="row d-flex justify-content-center align-items-center" modal-body>
+        <div class="col-md-12">
+            <form [formGroup]="formStatus" (ngSubmit)="crearStatus()" modal-body>
+                <div class="row d-flex justify-content-center align-items-center">
+                     <div class="col-md-6">
+                        <div class="form-group mt-1">
+                            <fy-label-form>Status</fy-label-form>
+                            <fy-input formControlName="nombre" [id]="'nombre'" [type]="'text'"></fy-input>
+                            <fy-error-form [visible]="submitedFormStatus "
+                                [errors]="nombre!.errors"></fy-error-form>
+                        </div>
+                    </div> 
+                    <div class="col-md-6">
+                        <div class="form-group mt-1">
+                            <fy-label-form style="width: 100% !important;">Etiqueta</fy-label-form>
+                            <br>
+                            <p-dropdown  formControlName="statuses" [options]="tipoEtiquetas!" optionLabel="nombre"  placeholder="Seleccione etiqueta">
+                                <ng-template let-option pTemplate="item">
+                                    <p-tag [value]="option.nombre"
+                                        [severity]="option.etiqueta"> 
+                                    </p-tag>
+                                </ng-template>
+                            </p-dropdown>
+                            <fy-error-form [visible]="submitedFormStatus"
+                                [errors]="statuses!.errors"></fy-error-form>
+                        </div>
+                    </div> 
+                     <div class="col-md-12">
+                        <div class="form-group mt-1" >
+                            <fy-label-form>Descripción</fy-label-form>
+                                <fy-textarea formControlName="descripcion"
+                                [id]="'descripcion'"></fy-textarea>
+                            <fy-error-form [visible]="submitedFormStatus"
+                                [errors]="descripcion!.errors"></fy-error-form>
+                                
+                        </div>
+                    </div> 
+                 
+                    <div class="col-md-12 ">
+                        <div class="form-group mt-3">
+                            <fy-button [type]="'submit'" [fyClass]="'btn btn-success '">
+                                Crear nuevo
+                            </fy-button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-12">
+            <hr>
+        </div>
+        <div class="col-12">
+            <fy-table [title]="'Elige el status a eliminar'" [objects]="tiposEstatus" [value_id]="'id'" 
+                            [cols]="colsStatus" [paginator]="false" [scrollable]="false" [visibleTable]="true"delete
+                            [downloadObjectsOK]="cargoStatus" [selectionMode]="'multiple'" [edit]="true" [deletee]="true"
+                            (eventDelete)="eliminarStatus($event)"  ></fy-table>
+        </div>
+    </div>
+</fy-modal>
+
+<fy-modal [fy_trans]="false" [widthInit]="'50vw'" [title]="'Gestión de clietes'" [id]="'visibleModalNuevoCliente'"
+    [visible]="visibleModalNuevoCliente" (eventCloseModal)="visibleModalNuevoCliente = false"
+    (eventOpenModal)="visibleModalNuevoCliente = true">
+    <div class="row d-flex justify-content-center align-items-center" modal-body>
+        <div class="col-md-12">
+            <form [formGroup]="formCrearActualizarCliente" (ngSubmit)="crearActualizarCliente()" modal-body>
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-md-6">
+                        <div class="form-group mt-1">
+                            <fy-label-form>Nombres</fy-label-form>
+                            <fy-input formControlName="nombres" [id]="'nombres'" [type]="'text'"></fy-input>
+                            <fy-error-form [visible]="submitedFormCrearActualizarCliente "
+                                [errors]="nombres!.errors"></fy-error-form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mt-1">
+                            <fy-label-form>Apellidos</fy-label-form>
+                            <fy-input formControlName="apellidos" [id]="'apellidos'" [type]="'text'"></fy-input>
+                            <fy-error-form [visible]="submitedFormCrearActualizarCliente "
+                                [errors]="apellidos!.errors"></fy-error-form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mt-1" >
+                            <fy-label-form>Estatus</fy-label-form>
+                            <fy-select formControlName="status" [multiple]="false" [bindValue]="'id'"
+                                [items]="tiposEstatus!" [bindLabel]="'nombre'"></fy-select>
+                            <fy-error-form [visible]="submitedFormCrearActualizarCliente "
+                                [errors]="status!.errors"></fy-error-form>
+                                
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mt-1">
+                            <fy-label-form>Correo</fy-label-form>
+                            <fy-input formControlName="correo" [id]="'correo'" [type]="'email'"></fy-input>
+                            <fy-error-form [visible]="submitedFormCrearActualizarCliente "
+                                [errors]="correo!.errors"></fy-error-form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mt-1">
+                            <fy-label-form>Pais</fy-label-form>
+                            <fy-input formControlName="pais" [id]="'pais'" [type]="'text'"></fy-input>
+                            <fy-error-form [visible]="submitedFormCrearActualizarCliente "
+                                [errors]="pais!.errors"></fy-error-form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mt-1">
+                            <fy-label-form>Teléfono </fy-label-form>
+                            <fy-input formControlName="telefono" [id]="'telefono'" [type]="'text'"></fy-input>
+                            <fy-error-form [visible]="submitedFormCrearActualizarCliente "
+                                [errors]="telefono!.errors"></fy-error-form>
+                        </div>
+                    </div>
+                     <div class="col-md-12">
+                        <div class="form-group mt-1">
+                            <fy-label-form>Campaña </fy-label-form>
+                             <fy-input formControlName="campana" [id]="'campana'" [type]="'text'"></fy-input>
+                             <fy-error-form [visible]="submitedFormCrearActualizarCliente "
+                             [errors]="campana!.errors"></fy-error-form>
+                        </div>
+                    </div> 
+                    <div class="col-md-12">
+                        <div class="form-group mt-1">
+                            <fy-checkbox style="font-size: 13px;" formControlName="retencion" [id]="'retencion'"
+                                [checked]="false" [label]="'Retencion'">
+                            </fy-checkbox>
+                            <fy-error-form [visible]="submitedFormCrearActualizarCliente"
+                                [errors]="retencion!.errors"></fy-error-form>
+                        </div>
+                    </div>
+                   
+                    <div class="col-md-12 ">
+                        <div class="form-group mt-3">
+                            <ng-container *ngIf="this.clienteElegido != undefined ">
+                                <fy-button [type]="'submit'" [fyClass]="'btn btn-success '">
+                                    Actualizar
+                                </fy-button>
+                                <a (click)="limpiarFormularioCliente()"  class="float-end" href="javascript:void(0);" style="font-size: 13px;">Crear nuevo</a>
+                            </ng-container>
+                            <ng-container *ngIf="this.clienteElegido == undefined ">
+                                <fy-button [type]="'submit'" [fyClass]="'btn btn-success '">
+                                    Crear nuevo
+                                </fy-button>
+                            </ng-container>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</fy-modal>
+
+<fy-modal [fy_trans]="false" [widthInit]="'50vw'" [title]="'Gestión de asesores'" [id]="'visibleModalNuevoUsuario'"
+    [visible]="visibleModalNuevoUsuario" (eventCloseModal)="visibleModalNuevoUsuario = false"
+    (eventOpenModal)="visibleModalNuevoUsuario = true">
+    <div class="row d-flex justify-content-center align-items-center" modal-body>
+        <div class="col-md-12">
+            <form [formGroup]="formCrearActualizarUsuario" (ngSubmit)="crearActualizarUsuario()" modal-body>
+                <div class="row ">
+                    <div class="col-md-6">
+                        <div class="form-group mt-1">
+                            <fy-label-form>Nombres</fy-label-form>
+                            <fy-input formControlName="nombresUsuario" [id]="'nombresUsuario'"
+                                [type]="'text'"></fy-input>
+                            <fy-error-form [visible]="submitedFormCrearActualizarUsuario"
+                                [errors]="nombresUsuario!.errors"></fy-error-form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mt-1">
+                            <fy-label-form>Apellidos</fy-label-form>
+                            <fy-input formControlName="apellidosUsuario" [id]="'apellidosUsuario'"
+                                [type]="'text'"></fy-input>
+                            <fy-error-form [visible]="submitedFormCrearActualizarUsuario"
+                                [errors]="apellidosUsuario!.errors"></fy-error-form>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group mt-1">
+                            <fy-label-form>Correo</fy-label-form>
+                            <fy-input formControlName="emailUsuario" [id]="'emailUsuario'" [type]="'email'"></fy-input>
+                            <fy-error-form [visible]="submitedFormCrearActualizarUsuario"
+                                [errors]="emailUsuario!.errors"></fy-error-form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mt-1">
+                            <fy-label-form>Tipo documento</fy-label-form>
+                            <fy-select formControlName="tipo_documentoUsuario" [multiple]="false" [bindValue]="'id'"
+                                [items]="tiposDocumentos!" [bindLabel]="'nombre'"></fy-select>
+                            <fy-error-form [visible]="submitedFormCrearActualizarUsuario "
+                                [errors]="tipo_documentoUsuario!.errors"></fy-error-form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mt-1">
+                            <fy-label-form>Documento</fy-label-form>
+                            <fy-input formControlName="documentoUsuario" [id]="'documentoUsuario'"
+                                [type]="'text'"></fy-input>
+                            <fy-error-form [visible]="submitedFormCrearActualizarUsuario"
+                                [errors]="documentoUsuario!.errors"></fy-error-form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mt-1">
+                            <fy-label-form>Teléfono</fy-label-form>
+                            <fy-input formControlName="telefono_celularUsuario" [id]="'pais'"
+                                [type]="'text'"></fy-input>
+                            <fy-error-form [visible]="submitedFormCrearActualizarUsuario"
+                                [errors]="telefono_celularUsuario!.errors"></fy-error-form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mt-1">
+                            <fy-label-form>Whatsapp </fy-label-form>
+                            <fy-input formControlName="telefono_whatsappUsuario" [id]="'telefono_whatsappUsuario'"
+                                [type]="'text'"></fy-input>
+                            <fy-error-form [visible]="submitedFormCrearActualizarUsuario"
+                                [errors]="telefono_whatsappUsuario!.errors"></fy-error-form>
+                        </div>
+                    </div>
+                  
+
+                    <div class="col-md-6">
+                        <div class="form-group mt-1">
+                            <fy-checkbox style="font-size: 13px;" formControlName="bloqueoUsuario" [id]="'bloqueo'"
+                                [checked]="false" [label]="'Bloquear asesor'">
+                            </fy-checkbox>
+                            <fy-error-form [visible]="submitedFormCrearActualizarUsuario"
+                                [errors]="bloqueoUsuario!.errors"></fy-error-form>
+                        </div>
+                    </div>
+                    <ng-container *ngIf="this.usuarioElegido != undefined ">
+                        <ng-container *ngIf="this.password.length > 0">
+                            <div class="col-md-12 ">
+                                <div (click)="copiar(this.password)"
+                                style="display: flex; cursor:pointer" class=" bg-mesage text-white mt-3">
+                                    <span 
+                                    class=" material-icons text-white  mp-0"
+                                        style="margin-right: 10px !important; ">lock </span>
+                                    {{this.password}}
+                                </div>
+                            </div>
+                        </ng-container>
+                        <div class="col-md-12 ">
+                            <a  (click)="restaurarContrasena()" href="javascript:void(0);" style="font-size: 13px;">Restaurar contraseña</a>
+                        </div>
+                    </ng-container>
+                    <div class="col-md-12 ">
+                        <div class="form-group mt-3">
+                            <ng-container *ngIf="this.usuarioElegido != undefined ">
+                                <fy-button [type]="'submit'" [fyClass]="'btn btn-success '">
+                                    Actualizar
+                                </fy-button>
+                                <a (click)="limpiarFormularioAsesor()"  class="float-end" href="javascript:void(0);" style="font-size: 13px;">Crear nuevo</a>
+                            </ng-container>
+                            <ng-container *ngIf="this.usuarioElegido == undefined ">
+                                <fy-button [type]="'submit'" [fyClass]="'btn btn-success '">
+                                    Crear nuevo
+                                </fy-button>
+                            </ng-container>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</fy-modal>
+
+<fy-modal [fy_trans]="false" [widthInit]="'80vw'" [title]="'Gestión de clientes seleccionados'"
+    [id]="'visibleModalGestionSeleccionCliente'" [visible]="visibleModalGestionSeleccionCliente"
+    (eventCloseModal)="visibleModalGestionSeleccionCliente = false"
+    (eventOpenModal)="visibleModalGestionSeleccionCliente = true">
+    <div class="row d-flex justify-content-center align-items-center" modal-body>
+        <div class="col-md-12">
+            <a href="javascript:void(0);" class="float-end me-2"
+                            style="color: red; font-size: 13px;" 
+                           (click)="eliminarMultiplesClientes()">Eliminar la selección</a> 
+        </div>
+        <div class="col-md-12">
+            <div class=" bg-mesage text-white mt-3">
+                Tiene {{ clientesSeleccionados!.length }} clientes seleccionados
+            </div>
+        </div>
+        <div class="col-12">
+            <hr>
+        </div>
+        <div class="col-12">
+            <form [formGroup]="formCambiarEstadoCliente" (ngSubmit)="cambiarEstadoCliente()" >
+                <div class="row mp0">
+                    <div class="col ">
+                        
+                            <div class="form-group mt-1" >
+                                <fy-label-form>Nuevo estado</fy-label-form>
+                                <br>
+                                <span style="font-size: 12px;">Cambie el estado de manera masiva a los clientes de la selección</span>
+                                <fy-select formControlName="nuevoEstado" [multiple]="false" [bindValue]="'id'"
+                                    [items]="tiposEstatus!" [bindLabel]="'nombre'"></fy-select>
+                                <fy-error-form [visible]="submitedCambiarEstadoCliente"
+                                    [errors]="nuevoEstado!.errors"></fy-error-form>
+                            </div>
+
+                       
+                       
+                    </div>
+                    <div class="col-auto d-flex align-items-end">
+                        
+                       
+                        <fy-button [type]="'submit'" [fyClass]="'btn btn-success'">
+                            Cambiar
+                        </fy-button>
+                   
+                </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-12">
+            <hr>
+        </div>
+        <div class="col-12">
+            <form [formGroup]="formAsignarClientes" (ngSubmit)="sinAccion()">
+                <div class="row mp0">
+                  
+                    <div class="col-12">
+                        <fy-label-form>Omitir la selección y aplicar la siguiente cantidad de clientes</fy-label-form>
+                        <br>
+                        <span style="font-size: 12px;">El sistema buscara los clientes que indiques en el siguiente campo que esten sin asignar a un asesor</span>
+                    </div>
+                    <div class="col">
+                        <div class="form-group mt-1">
+                            <fy-input formControlName="nmrClientesSinAsignar" [id]="'nmrClientesSinAsignar'" [type]="'number'"></fy-input>
+                            <fy-error-form [visible]="submitedFormAsignarClientes"
+                            [errors]="nmrClientesSinAsignar!.errors"></fy-error-form>
+                        </div>
+                    </div>
+                  
+                    <div class="col-auto">
+                        <div class="form-group mt-1">
+                            <fy-button  (click)="seleccionarEstosClientes()" [type]="'button'" [fyClass]="'btn btn-success '">
+                                Aplicar
+                            </fy-button>                    
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group mt-1">
+                            <fy-table [title]="'Elige el asesor'" [objects]="usuarios" [value_id]="'id'" 
+                            [cols]="colsUsuariosParaAsignacion" [paginator]="true" [scrollable]="true" [visibleTable]="true"
+                            [downloadObjectsOK]="cargoUsuarios" [selectionMode]="'multiple'" [edit]="true" [active]="true"
+                            (eventActive)="asignarAEsteAsesor($event)"  ></fy-table>
+                        </div>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+
+
+</fy-modal>

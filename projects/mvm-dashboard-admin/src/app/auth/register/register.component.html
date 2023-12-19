@@ -1,0 +1,59 @@
+<fy-auth [title]="'CREAR CUENTA'" [subTitle]="'Y disfrute de tod os los beneficios'">
+    <img src="assets/img/logolong.png" alt="" class="img-logo-auth img-fluid" loading="lazy" img-logo-auth>
+    <form [formGroup]="formRegister" (ngSubmit)="actionForm()" form-auth>
+        <div class="row">
+            <div class="col-12">
+                <h6 class="float-start fw-bold mt-1">CREAR CUENTA ADMIN</h6>
+            </div>
+            <div class="col-12 py-1">
+                <span class=" bg-mesage float-end" style="  font-size: 12px; color: white;">Ingreso solo para
+                    administradores</span>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-10">
+                <div class="form-group mt-1">
+                    <fy-label-form>key</fy-label-form>
+                    <fy-input formControlName="key" [id]="'key'" [type]="'key'"></fy-input>
+                    <fy-error-form [visible]="submitedForm" [errors]="key!.errors"></fy-error-form>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="form-group mt-1">
+                    <fy-label-form>Correo electrónico</fy-label-form>
+                    <fy-input formControlName="email" [id]="'email'" [type]="'email'"></fy-input>
+                    <fy-error-form [visible]="submitedForm" [errors]="email!.errors"></fy-error-form>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="form-group mt-1">
+                    <fy-label-form>Contraseña</fy-label-form>
+                    <fy-input formControlName="password" [id]="'password'" [type]="'password'"></fy-input>
+                    <fy-error-form [visible]="submitedForm" [errors]="password!.errors"></fy-error-form>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="form-group mt-1">
+                    <fy-label-form>Repita la Contraseña</fy-label-form>
+                    <fy-input formControlName="repeatPassword" [id]="'repeatPassword'" [type]="'password'"></fy-input>
+                    <fy-error-form [visible]="submitedForm" [errors]="repeatPassword!.errors"></fy-error-form>
+                </div>
+            </div>
+            <div class="col-md-10 ">
+                <div class="form-group mt-3">
+                    <fy-button [type]="'submit'" [fyClass]="'btn btn-success w-100 spacing'">
+                        INGRESAR
+                    </fy-button>
+                </div>
+            </div>
+            <div class="row m-0 p-0">
+                <div class="col-auto m-0 p-0">
+                    <a href="/" class="margin-auto"
+                        style="margin-top: 3px; padding: 0px; color: var(--fy-primary); font-size: 13px; ">
+                        Ya tengo una cuenta de administrador.
+                    </a>
+                </div>
+            </div>
+        </div>
+    </form>
+</fy-auth>

@@ -1,0 +1,14 @@
+
+
+.navbar-profile-image {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: var(--fy-box-shadow);
+    cursor: pointer;
+}
+
+.navbar-profile-image:hover {
+    border: 1px solid var(--fy-primary-trans);
+}

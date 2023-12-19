@@ -1,0 +1,10 @@
+<ng-container *ngIf="visible">
+    <span  [ngClass]="fyClass" >
+        <ng-container *ngIf="errors">
+            <ng-container *ngFor="let error of errors | keyvalue">
+                 {{ message }}
+              </ng-container>
+          </ng-container>
+    </span>
+</ng-container>
+

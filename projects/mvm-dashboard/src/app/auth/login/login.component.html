@@ -1,0 +1,75 @@
+<fy-auth [title]="'INGRESAR'" [subTitle]="'sistema de administración de cuenta'">
+    <img src="assets/img/logolong.png" alt="" class="img-logo-auth img-fluid" loading="lazy" img-logo-auth>
+    <form [formGroup]="formLogin" (ngSubmit)="actionFormLogin()"  form-auth>
+        <div class="row">
+            <div class="col-12">
+                <h6 class="float-start fw-bold">INICIAR SESIÓN</h6>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-10">
+                <div class="form-group mt-2">
+                    <fy-label-form>Correo electrónico</fy-label-form>
+                    <fy-input formControlName="email"  [id]="'email'"  [type]="'email'"></fy-input>
+                    <fy-error-form [visible]="submitedFormLogin"
+                        [errors]="email!.errors"></fy-error-form>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="form-group mt-2">
+                    <fy-label-form>Contraseña</fy-label-form>
+                    <fy-input formControlName="password" [id]="'password'" [type]="'password'"></fy-input>
+                    <fy-error-form [visible]="submitedFormLogin"
+                        [errors]="password!.errors"></fy-error-form>
+                </div>
+            </div>
+            <div class="col-md-10 py-3">
+                <fy-button [type]="'submit'" [fyClass]="'btn btn-success w-100 spacing'">
+                    INGRESAR
+                </fy-button>
+            </div>
+            <div class="row m-0 p-0">
+                <!-- <div class="col-auto m-0 p-0">
+                    <a href="/registrarse"  class="margin-auto"
+                        style="margin-top: 3px; padding: 0px; color: var(--fy-primary); font-size: 13px; ">
+                        Crear una cuenta.
+                    </a>
+                </div> -->
+                <div class="col"></div>
+                <!-- <div class="col-auto m-0 p-0">
+                    <a href="javascript:void(0);" class="margin-auto"
+                    (click)="visibleModalRecoverPassword = true"
+                        style="margin-top: 3px; padding: 0px; color: var(--fy-primary); font-size: 13px; ">
+                        Recuperar contraseña.
+                    </a>
+                </div> -->
+            </div>
+          
+        </div>
+    </form>
+</fy-auth>
+
+
+<fy-modal [id]="'visibleModalRecoverPassword'" [title]="'Recuperar contraseña'"
+    [visible]="visibleModalRecoverPassword" (eventCloseModal)="visibleModalRecoverPassword = false" (eventOpenModal)="visibleModalRecoverPassword = true">
+    <form [formGroup]="formRecoverPassword" (ngSubmit)="actionFormRecoverPassword()" modal-body>
+    <div class="row d-flex justify-content-center align-items-center " >
+       
+        <div class="col-md-8 ">
+                <div class="form-group mt-2">
+                    <fy-label-form>Correo electrónico</fy-label-form>
+                    <fy-input formControlName="email_recover_password"  [id]="'email_recover_password'"  [type]="'email'"></fy-input>
+                    <fy-error-form [visible]="submitedFormRecoverPassword"
+                        [errors]="email_recover_password!.errors"></fy-error-form>
+                </div>
+            
+        </div>
+        <div class="col-md-8 py-3">
+            <fy-button [type]="'submit'" [fyClass]="'btn btn-success w-100 spacing'">
+                ENVIAR CORREO DE RECUPERACIÓN
+            </fy-button>
+        </div>
+   
+    </div>
+</form>
+</fy-modal>

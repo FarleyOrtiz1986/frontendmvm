@@ -1,0 +1,20 @@
+
+/* Estilo para el contenedor principal del campo de contraseña */
+.password-container {
+    position: relative;
+  }
+  
+  /* Estilo para el campo de entrada */
+  .password-input {
+    width: 100%; /* Asegura que el campo de entrada ocupe todo el ancho disponible */
+    padding-right: 40px; /* Espacio a la derecha para los iconos */
+  }
+  
+  /* Estilo para los íconos de visibilidad de la contraseña */
+  .icon-type-password {
+    position: absolute; /* Posición absoluta dentro del contenedor relativo */
+    top: 50%; /* Centra verticalmente */
+    right: 10px; /* Espacio a la derecha del campo de entrada */
+    transform: translateY(-50%); /* Centra verticalmente con translateY */
+    cursor: pointer; /* Cambia el cursor al puntero al pasar el mouse */
+  }

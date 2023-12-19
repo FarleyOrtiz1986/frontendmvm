@@ -1,0 +1,79 @@
+/* .wrapper {
+  padding: 5px;
+  color: var(--fy-black);
+  background-color: var(--fy-white);
+  border-radius: var(--fy-border-radius-input);
+  border: var(--fy-primary) 1px solid;
+  min-height: 33px;
+  min-width: 300px;
+}
+
+.wrapper:focus,
+.wrapper:hover {
+ 
+  border: var(--fy-primary) 1px solid;
+  box-shadow: var(--fy-box-shadow-input);
+}
+
+.input-not-edit {
+  pointer-events: none;
+}
+
+.wrapper h2 {
+  padding-bottom: 20px;
+}
+
+.wrapper #file-input {
+  display: none;
+}
+
+.wrapper label[for='file-input'] * {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.wrapper label[for='file-input'] span {
+  margin-left: 0px
+}
+
+.remove {
+  vertical-align: middle;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.add {
+  background-color: rgba(131, 130, 130, 0.247);
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.add:hover {
+  background-color: rgba(131, 130, 130, 0.418);
+} */
+
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Adjuntar archivo';
+  display: inline-block;
+  /* background: linear-gradient(top, #f9f9f9, #e3e3e3); */
+  /* border: 1px solid #999; */
+  border-style: none;
+  border-radius: 3px;
+  /* padding: 5px 8px; */
+  /* outline: none;
+  white-space: nowrap; */
+  cursor: pointer;
+  /* text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt; */
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}

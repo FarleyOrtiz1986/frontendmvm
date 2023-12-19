@@ -1,0 +1,33 @@
+<!-- <ng-select *ngIf="items && items.length > 0" -->
+    <ng-select *ngIf="downloadOk" 
+    (change)="emitSelectionChanged($event)" 
+    (focus)="onTouched($event)"
+    [closeOnSelect]="!multiple!"
+    [searchable]="true"  
+    [multiple]="multiple!"  
+     [items]="items!"  
+     bindValue="{{ bindValue }}"   
+     bindLabel="{{ bindLabel }}" 
+     [(ngModel)]="value" 
+     [compareWith]="compareObjects"
+     [disabled]="isDisabled"
+    class="custom" >
+    
+       <ng-template *ngIf="!multiple!" ng-label-tmp let-item="item" >
+       {{ item[bindLabel!] }}
+     </ng-template>  
+
+   
+   
+     <ng-template  *ngIf="multiple!"  ng-option-tmp let-item="item" let-item$="item$" let-index="index">
+       <input id="item-{{index}}" type="checkbox" name="item-{{index}}" [ngModel]="item$.selected"/>   {{ item[bindLabel!] }} 
+     </ng-template>
+   
+   </ng-select>
+   
+   <!-- <div *ngIf="!(items && items.length > 0)" class="load text">
+   </div> -->
+
+   <div *ngIf="!downloadOk" class="load text">
+  </div>
+   

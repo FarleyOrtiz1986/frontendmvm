@@ -1,0 +1,356 @@
+<ng-container *ngIf="cols && cols!.length > 0 && objects  && objects!.length > 0 && downloadObjectsOK">
+    <p-table #myTable [dataKey]="value_id!" [columns]="cols" [value]="objects!" [columns]="selectedColumns!"
+        [(selection)]="selectedObjects!" [metaKeySelection]="true" [paginator]="paginator"
+        [showCurrentPageReport]="paginator"
+        currentPageReportTemplate="Mostrando {first} a {last} de {totalRecords} entradas"
+        [rowsPerPageOptions]="rowsPerPageOptions" [rows]="rows" [scrollable]="false" scrollHeight="70vh"
+        (onRowSelect)="onRowSelect($event)" (onRowUnselect)="onRowUnselect($event)" styleClass="p-datatable-sm">
+
+        <ng-template pTemplate="caption" *ngIf="headerSearch">
+            <div class="row mp-0">
+                <ng-container *ngIf="visibleTable">
+                    <div [@fadeInOut] class="col-auto mp-0">
+                        <div style=" display: flex;">
+                            <div [@fadeInOut] class="dropdown  dropend ">
+                                <span class=" material-icons px-1 mt-2"
+                                    style="cursor: pointer; font-size: 18px !important;" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    more_vert
+                                </span>
+                                <ul class="dropdown-menu options-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li>
+                                        <span>Filtrar por nombre: </span>
+                                        <p-columnFilter type="text" field="nombreCompleto" display="menu">
+                                        </p-columnFilter>
+                                    </li>
+
+                                    <ng-container *ngIf="newElement">
+                                        <li>
+                                            <a class="dropdown-item item-options-menu " href="javascript:void(0);"
+                                                (click)="clickInNewElement()">
+                                                Nuevo
+                                            </a>
+                                        </li>
+                                    </ng-container>
+                                    <ng-container *ngIf="importExcel">
+                                        <li>
+                                            <a class="dropdown-item item-options-menu " href="javascript:void(0);"
+                                                (click)="clickInImport()">
+                                                Importar desde Excel
+                                            </a>
+                                        </li>
+                                        <div style="display: none;" class="col-auto m-0 p-1">
+                                            <div class="label-upload">
+                                                <label for="file-input" class="file-input-label">
+                                                </label>
+                                                <input id="file-input" class="file-input-label-excel"
+                                                    (change)="readExcel($event)" type="file" accept=".xlsx, .xls" />
+                                            </div>
+                                        </div>
+                                    </ng-container>
+                                </ul>
+
+
+                            </div>
+
+                            <span (click)="clear(myTable)" class="icon-not-filter material-icons mx-0">
+                                filter_alt_off
+                            </span>
+                            <span (click)="filterSearch(myTable)"
+                                class="icon-not-filter material-icons mx-0 text-success ">
+                                search
+                            </span>
+                            <fy-input (keydown.enter)="filterSearch(myTable)" [(ngModel)]="ikeyword" [id]="'search'"
+                                [type]="'text'" [placeholder]="''" style="width: 250px; margin-left: 5px; "></fy-input>
+                        </div>
+                    </div>
+                </ng-container>
+
+            </div>
+
+        </ng-template>
+ 
+
+
+        <ng-template pTemplate="header" let-columns>
+            <ng-template  let-columns>
+                <ng-container *ngFor="let col of columns ; let thCol = index" pSortableColumn="{{ col.field }}">
+    
+                    <ng-container *ngIf="  col.type == 'list-status'">
+                        <p-columnFilter field="{{col.field}}" matchMode="equals" display="menu" class="ml-auto">
+                            <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                                <!-- <p-dropdown [ngModel]="value" [options]="col.representative" optionLabel="{{col.option_label}}" (onChange)="filter($event.value[col.option_label])"  placeholder="Seleccionar" >
+                                </p-dropdown>  -->
+                                <li>
+                                    <p-dropdown [ngModel]="value" [options]="col.representative"
+                                        (onChange)="filter($event.value[col.option_label])" placeholder="Seleccionar">
+    
+                                        <ng-template let-option pTemplate="item">
+                                            <!-- {{option[col.option_label]}} -->
+                                            <p-tag [value]="option[col.option_label]"
+                                                [severity]="option[col.option_status]"> </p-tag>
+                                        </ng-template>
+    
+                                    </p-dropdown>
+                                </li>
+                            </ng-template>
+    
+                            <ng-container *ngIf="col.type == text   ||   col.type == select ">
+                                <li>
+                                    <p-columnFilter type="text" field="{{col.field}}" display="menu"></p-columnFilter>
+                                </li>
+                            </ng-container>
+                        </p-columnFilter>
+                    </ng-container>
+                </ng-container>
+            </ng-template>
+            <ng-container *ngIf="visibleTable">
+                <tr [@fadeInOut]>
+
+                    <th *ngFor="let col of columns ; let thCol = index" pSortableColumn="{{ col.field }}">
+                        <div class="row">
+                            <div class="sectIcon">
+                                <div class=" d-flex justify-content-center align-items-center">
+                                    <div class="col-auto  mp-0">
+                                        <h6 class=" mp-0"
+                                            style="margin-top: 10px; font-weight: 500; font-size: 14px !important; ">
+                                            {{ col.header }}
+                                        </h6>
+                                    </div>
+                                    <ng-container *ngIf="Headerfilter">
+                                        <!-- <ng-container *ngIf="col.type != img_profile">
+                                            <div class="col-auto d-flex justify-content-center align-items-center">
+                                                <p-sortIcon class="my-custom-sort-icon mx-1" pSortableColumn="{{ col.field }}"
+                                                    field="{{ col.field }}">
+                                                </p-sortIcon>
+                                            </div>
+                                        </ng-container> -->
+                                        <div class="col-auto d-flex justify-content-center align-items-center">
+                                            <ng-container *ngIf="  col.type == finit_options">
+                                                <p-columnFilter field="{{col.field}}" type="text" display="menu">
+                                                </p-columnFilter>
+                                            </ng-container>
+                                            <ng-container *ngIf="  col.type == 'link'">
+                                                <p-columnFilter field="{{col.field}}" type="text" display="menu">
+                                                </p-columnFilter>
+                                            </ng-container>
+
+                                            <ng-container *ngIf="  col.type == 'list-status'">
+                                                <p-columnFilter field="{{col.field}}" matchMode="equals" display="menu"
+                                                    class="ml-auto">
+                                                    <ng-template pTemplate="filter" let-value
+                                                        let-filter="filterCallback">
+                                                        <!-- <p-dropdown [ngModel]="value" [options]="col.representative" optionLabel="{{col.option_label}}" (onChange)="filter($event.value[col.option_label])"  placeholder="Seleccionar" >
+                                                        </p-dropdown>  -->
+                                                        <p-dropdown [ngModel]="value" [options]="col.representative"
+                                                            (onChange)="filter($event.value[col.option_label])"
+                                                            placeholder="Seleccionar">
+
+                                                            <ng-template let-option pTemplate="item">
+                                                                <!-- {{option[col.option_label]}} -->
+                                                                <p-tag [value]="option[col.option_label]"
+                                                                    [severity]="option[col.option_status]"> </p-tag>
+                                                            </ng-template>
+
+                                                        </p-dropdown>
+                                                    </ng-template>
+                                                </p-columnFilter>
+                                            </ng-container>
+
+
+                                            <ng-container *ngIf="col.type == text   ||   col.type == select ">
+                                                <p-columnFilter type="text" field="{{col.field}}"
+                                                    display="menu"></p-columnFilter>
+                                            </ng-container>
+                                            <ng-container *ngIf=" col.type == date">
+                                                <p-columnFilter type="date" field="{{col.field}}"
+                                                    display="menu"></p-columnFilter>
+                                            </ng-container>
+                                            <ng-container *ngIf=" col.type == date_hour">
+                                                <p-columnFilter type="date" field="{{col.field}}"
+                                                    display="menu"></p-columnFilter>
+                                            </ng-container>
+                                            <ng-container *ngIf=" col.type == time">
+                                                <p-columnFilter type="date" field="{{col.field}}"
+                                                    display="menu"></p-columnFilter>
+                                            </ng-container>
+
+                                            <ng-container
+                                                *ngIf=" col.type == number ||   col.type == currency_cop ||   col.type == currency_usd ||   col.type == percentage">
+                                                <p-columnFilter type="numeric" field="{{col.field}}"
+                                                    display="menu"></p-columnFilter>
+                                            </ng-container>
+                                            <ng-container *ngIf=" col.type == boolean  ">
+                                                <p-columnFilter type="boolean" field="{{col.field}}"
+                                                    display="menu"></p-columnFilter>
+                                            </ng-container>
+                                        </div>
+                                    </ng-container>
+
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                    <ng-container *ngIf="edit">
+                        <ng-container *ngIf="colFixed">
+                            <th pFrozenColumn alignFrozen="right">
+                            </th>
+                        </ng-container>
+                        <ng-container *ngIf="!colFixed">
+                            <th>
+                            </th>
+                        </ng-container>
+
+                    </ng-container>
+                </tr>
+            </ng-container>
+        </ng-template>
+        <ng-template pTemplate="body" let-object let-columns="columns" let-ri="rowIndex">
+            <ng-container *ngIf="visibleTable">
+                <tr [@fadeInOut] [pSelectableRow]="object" [pSelectableRowIndex]="ri">
+                    <ng-container *ngIf="SelectionSheckbox">
+                        <td>
+                            <p-tableCheckbox [value]="object"></p-tableCheckbox>
+                        </td>
+                    </ng-container>
+
+                    <td *ngFor="let col of columns; let icol = index" class="position-relative">
+                        <ng-container *ngIf="col.type == finit_options ">
+                            <ng-container *ngFor="let opt of col.options">
+                                <ng-container *ngIf="opt.item ==object[col.field]">
+                                    <div class="row mp-0 w-100">
+                                        <div class="col-12 mp-0  d-flex justify-content-center align-items-center">
+                                            <badge [textEstate]="object[col.field]" [fyClass]="opt.fyClass"></badge>
+                                        </div>
+                                    </div>
+                                </ng-container>
+                            </ng-container>
+                        </ng-container>
+                        <ng-container *ngIf="col.type == text   ||   col.type == select ">
+                            {{ object[col.field] }}
+                        </ng-container>
+                        <ng-container *ngIf="col.type == 'list-status' ">
+                            <div class="row mp-0 w-100">
+                                <div class="col-12 mp-0  d-flex justify-content-center align-items-center">
+                                    <p-tag [value]="object[col.field]"
+                                        [severity]="getSeverity(col.representative, object[col.field], col.option_label, col.option_status)"></p-tag>
+                                </div>
+                            </div>
+
+                        </ng-container>
+                        <ng-container *ngIf="col.type == 'link' ">
+                            <a href="{{ object[col.field]}}" target="_blank">{{ col.nameLink }} </a>
+                        </ng-container>
+                        <ng-container *ngIf=" col.type == number">
+                            <div class="row mp-0 w-100">
+                                <div class="col-12 mp-0  d-flex justify-content-center align-items-center">
+                                    {{ object[col.field] }}
+                                </div>
+                            </div>
+                        </ng-container>
+                        <ng-container *ngIf=" col.type == date">
+                            <div class="row mp-0 w-100">
+                                <div class="col-12 mp-0  d-flex justify-content-center align-items-center">
+                                    {{ object[col.field] | date:'mediumDate' }}
+                                </div>
+                            </div>
+                        </ng-container>
+                        <ng-container *ngIf=" col.type == currency_cop">
+                            <div class="row mp-0 w-100">
+                                <div class="col-12 mp-0  d-flex justify-content-center align-items-center">
+                                    {{ object[col.field] |currency:'CAD':'symbol-narrow':'3.0' }}
+                                </div>
+                            </div>
+                        </ng-container>
+                        <ng-container *ngIf=" col.type == currency_usd">
+                            <div class="row mp-0 w-100">
+                                <div class="col-12 mp-0  d-flex justify-content-center align-items-center">
+                                    {{ object[col.field] |currency:'CAD':'symbol-narrow':'3.0' }}
+                                </div>
+                            </div>
+                        </ng-container>
+
+                        <!-- <ng-container *ngIf=" col.type == time">
+                                <p-columnFilter type="date" field="{{col.field}}"
+                                    display="menu"></p-columnFilter>
+                            </ng-container>
+        
+                            <ng-container
+                                *ngIf=" col.type == number ||   col.type == currency_cop ||   col.type == percentage">
+                                <p-columnFilter type="numeric" field="{{col.field}}"
+                                    display="menu"></p-columnFilter>
+                            </ng-container> -->
+
+                        <ng-container *ngIf=" col.type == img_profile  ">
+                            <div class="row mp-0 w-100">
+                                <div class="col-12 mp-0  d-flex justify-content-center align-items-center">
+                                    <img src="{{ object[col.field]}}" class="rounded-circle" height="50px" width="50px"
+                                        alt="" loading="lazy">
+                                </div>
+                            </div>
+                        </ng-container>
+                        <ng-container *ngIf=" col.type == boolean  ">
+                            <div class="row mp-0 w-100">
+                                <div class="col-12 mp-0  d-flex justify-content-center align-items-center">
+                                    <fy-checkbox [id]="ri+icol+1" [checked]="object[col.field]"></fy-checkbox>
+                                </div>
+                            </div>
+                        </ng-container>
+                    </td>
+                    <ng-container *ngIf="edit">
+                        <ng-container *ngIf="colFixed">
+                            <td pFrozenColumn alignFrozen="right" style="background-color: rgba(211, 204, 201, 0.24);">
+                                <div class="d-flex align-items-center justify-content-center gap-2">
+                                    <fy-button-icon (click)="activeEvents(object)" *ngIf="active"
+                                        [fyClass]="'bg-success'" [icon]="'done'">
+                                    </fy-button-icon>
+                                    <fy-button-icon (click)="moreEvents(object)" *ngIf="more" [fyClass]="'bg-info'"
+                                        [icon]="'visibility'">
+                                    </fy-button-icon>
+                                    <fy-button-icon (click)="plusEvents(object)" *ngIf="plus" [fyClass]="'bg-info'"
+                                        [icon]="'add'">
+                                    </fy-button-icon>
+                                    <fy-button-icon (click)="deleteEvents(object)" *ngIf="deletee"
+                                        [fyClass]="'bg-danger'" [icon]="'delete'">
+                                    </fy-button-icon>
+                                </div>
+                            </td>
+                        </ng-container>
+                        <ng-container *ngIf="!colFixed">
+                            <td style="background-color: rgba(211, 204, 201, 0.24);">
+                                <div class="d-flex align-items-center justify-content-center gap-2">
+                                    <fy-button-icon (click)="activeEvents(object)" *ngIf="active"
+                                        [fyClass]="'bg-success'" [icon]="'done'">
+                                    </fy-button-icon>
+                                    <fy-button-icon (click)="moreEvents(object)" *ngIf="more" [fyClass]="'bg-info'"
+                                        [icon]="'visibility'">
+                                    </fy-button-icon>
+                                    <fy-button-icon (click)="plusEvents(object)" *ngIf="plus" [fyClass]="'bg-info'"
+                                        [icon]="'add'">
+                                    </fy-button-icon>
+                                    <fy-button-icon (click)="deleteEvents(object)" *ngIf="deletee"
+                                        [fyClass]="'bg-danger'" [icon]="'delete'">
+                                    </fy-button-icon>
+                                </div>
+                            </td>
+                        </ng-container>
+
+                    </ng-container>
+                </tr>
+            </ng-container>
+        </ng-template>
+
+
+    </p-table>
+</ng-container>
+<!-- <div *ngIf="!(cols && objects)" class="load table-box">
+</div> -->
+
+<div *ngIf="!(cols && objects && downloadObjectsOK)" class="load table-box">
+</div>
+
+<div *ngIf="cols && cols!.length > 0 && objects && objects!.length == 0 && downloadObjectsOK">
+    <h4 class="text-white bg-mesage">
+        NO HAY ELEMENTOS EN LA TABLA
+    </h4>
+</div>

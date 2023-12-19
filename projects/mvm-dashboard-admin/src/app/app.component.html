@@ -1,0 +1,5 @@
+
+
+<router-outlet></router-outlet>
+<fy-toast-notification [typeToast]="toastNotSvc.typeToast()" [message]="toastNotSvc.messageToast()" [visible]="toastNotSvc.visibleToast()"></fy-toast-notification>
+<fy-spinner-bg [messageSpinnerBg]="spinnerBgSvc.messageSpinnerBg()" *ngIf="spinnerBgSvc.visibleSpinnerBg()"></fy-spinner-bg>

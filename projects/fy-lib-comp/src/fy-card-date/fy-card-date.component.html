@@ -1,0 +1,31 @@
+<div class="card">
+    <div class="card-body p-3">
+      <div class="row">
+        <div class="col-9">
+          <div class="numbers">
+            <div style="display: flex;">
+              <p class="text-sm mb-0 text-capitalize font-weight-bold">{{title}} </p>
+              <ng-content select="[fy-tooltips-icons]"></ng-content>
+            </div>
+            <div style="display: flex;">
+              <h5 class="font-weight-bolder mb-0 fw-bold text-primary-dark">
+                {{date}}
+              </h5>
+              <span class="icon-arrow-card-date  material-icons  icon-plus--date float-end"
+              (click)="toGo()">arrow_right_alt</span> 
+            </div>
+        
+          </div>
+        </div>
+        <div class="col-3 d-flex justify-content-center align-items-center">
+          <div class="  text-center float-end bg-icon-card" >
+            <span class="icon-card  material-icons ">{{icon}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  

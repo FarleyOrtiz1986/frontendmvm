@@ -1,0 +1,5601 @@
+{
+    "cities": [
+        
+ {
+    "name_state": "AMAZONAS",
+    "id_citie":  "91263",
+    "name_citie": "EL ENCANTO"
+  },
+  {
+    "name_state": "AMAZONAS",
+    "id_citie":  "91405",
+    "name_citie": "LA CHORRERA"
+  },
+  {
+    "name_state": "AMAZONAS",
+    "id_citie":  "91407",
+    "name_citie": "LA PEDRERA"
+  },
+  {
+    "name_state": "AMAZONAS",
+    "id_citie":  "91430",
+    "name_citie": "LA VICTORIA"
+  },
+  {
+    "name_state": "AMAZONAS",
+    "id_citie":  "91001",
+    "name_citie": "LETICIA"
+  },
+  {
+    "name_state": "AMAZONAS",
+    "id_citie":  "91460",
+    "name_citie": "MIRITI - PARANÁ"
+  },
+  {
+    "name_state": "AMAZONAS",
+    "id_citie":  "91530",
+    "name_citie": "PUERTO ALEGRIA"
+  },
+  {
+    "name_state": "AMAZONAS",
+    "id_citie":  "91536",
+    "name_citie": "PUERTO ARICA"
+  },
+  {
+    "name_state": "AMAZONAS",
+    "id_citie":  "91540",
+    "name_citie": "PUERTO NARIÑO"
+  },
+  {
+    "name_state": "AMAZONAS",
+    "id_citie":  "91669",
+    "name_citie": "PUERTO SANTANDER"
+  },
+  {
+    "name_state": "AMAZONAS",
+    "id_citie":  "91798",
+    "name_citie": "TARAPACÁ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05120",
+    "name_citie": "CÁCERES"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05154",
+    "name_citie": "CAUCASIA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05250",
+    "name_citie": "EL BAGRE"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05495",
+    "name_citie": "NECHÍ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05790",
+    "name_citie": "TARAZÁ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05895",
+    "name_citie": "ZARAGOZA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05142",
+    "name_citie": "CARACOLÍ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05425",
+    "name_citie": "MACEO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05579",
+    "name_citie": "PUERTO BERRiO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05585",
+    "name_citie": "PUERTO NARE"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05591",
+    "name_citie": "PUERTO TRIUNFO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05893",
+    "name_citie": "YONDÓ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05031",
+    "name_citie": "AMALFI"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05040",
+    "name_citie": "ANORÍ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05190",
+    "name_citie": "CISNEROS"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05604",
+    "name_citie": "REMEDIOS"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05670",
+    "name_citie": "SAN ROQUE"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05690",
+    "name_citie": "SANTO DOMINGO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05736",
+    "name_citie": "SEGOVIA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05858",
+    "name_citie": "VEGACHÍ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05885",
+    "name_citie": "YALÍ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05890",
+    "name_citie": "YOLOMBÓ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05038",
+    "name_citie": "ANGOSTURA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05086",
+    "name_citie": "BELMIRA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05107",
+    "name_citie": "BRICEÑO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05134",
+    "name_citie": "CAMPAMENTO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05150",
+    "name_citie": "CAROLINA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05237",
+    "name_citie": "DON MATiAS"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05264",
+    "name_citie": "ENTRERRIOS"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05310",
+    "name_citie": "GÓMEZ PLATA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05315",
+    "name_citie": "GUADALUPE"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05361",
+    "name_citie": "ITUANGO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05647",
+    "name_citie": "SAN ANDRÉS"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05658",
+    "name_citie": "SAN JOSÉ DE LA MONTAÑA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05664",
+    "name_citie": "SAN PEDRO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05686",
+    "name_citie": "SANTA ROSA de osos"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05819",
+    "name_citie": "TOLEDO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05854",
+    "name_citie": "VALDIVIA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05887",
+    "name_citie": "YARUMAL"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05004",
+    "name_citie": "ABRIAQUÍ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05044",
+    "name_citie": "ANZA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05059",
+    "name_citie": "ARMENIA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05113",
+    "name_citie": "BURITICÁ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05138",
+    "name_citie": "CAÑASGORDAS"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05234",
+    "name_citie": "DABEIBA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05240",
+    "name_citie": "EBÉJICO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05284",
+    "name_citie": "FRONTINO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05306",
+    "name_citie": "GIRALDO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05347",
+    "name_citie": "HELICONIA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05411",
+    "name_citie": "LIBORINA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05501",
+    "name_citie": "OLAYA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05543",
+    "name_citie": "PEQUE"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05628",
+    "name_citie": "SABANALARGA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05656",
+    "name_citie": "SAN JERÓNIMO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05042",
+    "name_citie": "SANTAFÉ DE ANTIOQUIA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05761",
+    "name_citie": "SOPETRaN"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05842",
+    "name_citie": "URAMITA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05002",
+    "name_citie": "ABEJORRAL"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05021",
+    "name_citie": "ALEJANDRÍA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05055",
+    "name_citie": "ARGELIA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05148",
+    "name_citie": "CARMEN DE VIBORAL"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05197",
+    "name_citie": "COCORNÁ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05206",
+    "name_citie": "CONCEPCIÓN"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05313",
+    "name_citie": "GRANADA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05318",
+    "name_citie": "GUARNE"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05321",
+    "name_citie": "GUATAPE"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05376",
+    "name_citie": "LA CEJA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05400",
+    "name_citie": "LA UNIÓN"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05440",
+    "name_citie": "MARINILLA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05483",
+    "name_citie": "NARIÑO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05541",
+    "name_citie": "PEÑOL"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05607",
+    "name_citie": "RETIRO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05615",
+    "name_citie": "RIONEGRO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05649",
+    "name_citie": "SAN CARLOS"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05652",
+    "name_citie": "SAN FRANCISCO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05660",
+    "name_citie": "SAN LUIS"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05667",
+    "name_citie": "SAN RAFAEL"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05674",
+    "name_citie": "SAN VICENTE"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05697",
+    "name_citie": "SANTUARIO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05756",
+    "name_citie": "SONSON"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05030",
+    "name_citie": "AMAGa"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05034",
+    "name_citie": "ANDES"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05036",
+    "name_citie": "ANGELOPOLIS"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05091",
+    "name_citie": "BETANIA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05093",
+    "name_citie": "BETULIA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05125",
+    "name_citie": "CAICEDO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05145",
+    "name_citie": "CARAMANTA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05101",
+    "name_citie": "CIUDAD BOLÍVAR"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05209",
+    "name_citie": "CONCORDIA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05282",
+    "name_citie": "FREDONIA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05353",
+    "name_citie": "HISPANIA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05364",
+    "name_citie": "JARDÍN"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05368",
+    "name_citie": "JERICÓ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05390",
+    "name_citie": "LA PINTADA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05467",
+    "name_citie": "MONTEBELLO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05576",
+    "name_citie": "PUEBLORRICO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05642",
+    "name_citie": "SALGAR"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05679",
+    "name_citie": "SANTA BaRBARA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05789",
+    "name_citie": "TÁMESIS"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05792",
+    "name_citie": "TARSO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05809",
+    "name_citie": "TITIRIBÍ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05847",
+    "name_citie": "URRAO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05856",
+    "name_citie": "VALPARAISO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05861",
+    "name_citie": "VENECIA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05045",
+    "name_citie": "APARTADÓ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05051",
+    "name_citie": "ARBOLETES"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05147",
+    "name_citie": "CAREPA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05172",
+    "name_citie": "CHIGORODÓ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05475",
+    "name_citie": "MURINDÓ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05480",
+    "name_citie": "MUTATA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05490",
+    "name_citie": "NECOCLÍ"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05659",
+    "name_citie": "SAN JUAN DE URABA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05665",
+    "name_citie": "SAN PEDRO DE URABA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05837",
+    "name_citie": "TURBO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05873",
+    "name_citie": "VIGÍA DEL FUERTE"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05079",
+    "name_citie": "BARBOSA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05088",
+    "name_citie": "BELLO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05129",
+    "name_citie": "CALDAS"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05212",
+    "name_citie": "COPACABANA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05266",
+    "name_citie": "ENVIGADO"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05308",
+    "name_citie": "GIRARDOTA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05360",
+    "name_citie": "ITAGUI"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05380",
+    "name_citie": "LA ESTRELLA"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05001",
+    "name_citie": "MEDELLÍN"
+  },
+  {
+    "name_state": "ANTIOQUIA",
+    "id_citie":  "05631",
+    "name_citie": "SABANETA"
+  },
+  {
+    "name_state": "ARAUCA",
+    "id_citie":  "081001",
+    "name_citie": "ARAUCA"
+  },
+  {
+    "name_state": "ARAUCA",
+    "id_citie":  "081065",
+    "name_citie": "ARAUQUITA"
+  },
+  {
+    "name_state": "ARAUCA",
+    "id_citie":  "081220",
+    "name_citie": "CRAVO NORTE"
+  },
+  {
+    "name_state": "ARAUCA",
+    "id_citie":  "081300",
+    "name_citie": "FORTUL"
+  },
+  {
+    "name_state": "ARAUCA",
+    "id_citie":  "081591",
+    "name_citie": "PUERTO RONDÓN"
+  },
+  {
+    "name_state": "ARAUCA",
+    "id_citie":  "081736",
+    "name_citie": "SARAVENA"
+  },
+  {
+    "name_state": "ARAUCA",
+    "id_citie":  "081794",
+    "name_citie": "TAME"
+  },
+  {
+    "name_state": "ARCHIPIELAGO DE SAN ANDRES",
+    "id_citie":  "088564",
+    "name_citie": "PROVIDENCIA Y SANTA CATALINA"
+  },
+  {
+    "name_state": "ARCHIPIELAGO DE SAN ANDRES",
+    "id_citie":  "088001",
+    "name_citie": "SAN ANDReS"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08001",
+    "name_citie": "BARRANQUILLA"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08296",
+    "name_citie": "GALAPA"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08433",
+    "name_citie": "MALAMBO"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08573",
+    "name_citie": "PUERTO COLOMBIA"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08758",
+    "name_citie": "SOLEDAD"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08137",
+    "name_citie": "CAMPO DE LA CRUZ"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08141",
+    "name_citie": "CANDELARIA"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08421",
+    "name_citie": "LURUACO"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08436",
+    "name_citie": "MANATi"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08606",
+    "name_citie": "REPELON"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08675",
+    "name_citie": "SANTA LUCiA"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08770",
+    "name_citie": "SUAN"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08078",
+    "name_citie": "BARANOA"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08520",
+    "name_citie": "PALMAR DE VARELA"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08558",
+    "name_citie": "POLONUEVO"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08560",
+    "name_citie": "PONEDERA"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08634",
+    "name_citie": "Sabanagrande"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08638",
+    "name_citie": "SABANALARGA"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08685",
+    "name_citie": "Santo Tomas"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08372",
+    "name_citie": "JUAN DE ACOSTA"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08549",
+    "name_citie": "PIOJÓ"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08832",
+    "name_citie": "TUBARA"
+  },
+  {
+    "name_state": "ATLÁNTICO",
+    "id_citie":  "08849",
+    "name_citie": "USIACURi"
+  },
+  {
+    "name_state": "BOGOTÁ D.C.",
+    "id_citie":  "11001",
+    "name_citie": "BOGOTA D.C."
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13188",
+    "name_citie": "CICUCO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13300",
+    "name_citie": "HATILLO DE LOBA"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13440",
+    "name_citie": "MARGARITA"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13468",
+    "name_citie": "MOMPÓS"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13650",
+    "name_citie": "SAN FERNANDO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13780",
+    "name_citie": "TALAIGUA NUEVO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13052",
+    "name_citie": "ARJONA"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13062",
+    "name_citie": "ARROYOHONDO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13140",
+    "name_citie": "CALAMAR"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13001",
+    "name_citie": "CARTAGENA"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13222",
+    "name_citie": "CLEMENCIA"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13433",
+    "name_citie": "MAHATES"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13620",
+    "name_citie": "SAN CRISTOBAL"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13647",
+    "name_citie": "SAN ESTANISLAO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13673",
+    "name_citie": "SANTA CATALINA"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13683",
+    "name_citie": "SANTA ROSA DE LIMA"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13760",
+    "name_citie": "SOPLAVIENTO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13836",
+    "name_citie": "TURBACO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13838",
+    "name_citie": "TURBANA"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13873",
+    "name_citie": "VILLANUEVA"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13030",
+    "name_citie": "ALTOS DEL ROSARIO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13074",
+    "name_citie": "BARRANCO DE LOBA"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13268",
+    "name_citie": "EL PEÑON"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13580",
+    "name_citie": "REGIDOR"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13600",
+    "name_citie": "RÍO VIEJO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13667",
+    "name_citie": "SAN MARTIN DE LOBA"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13042",
+    "name_citie": "ARENAL"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13160",
+    "name_citie": "CANTAGALLO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13473",
+    "name_citie": "MORALES"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13670",
+    "name_citie": "SAN PABLO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13688",
+    "name_citie": "SANTA ROSA DEL SUR"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13744",
+    "name_citie": "SIMITÍ"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13006",
+    "name_citie": "ACHÍ"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13430",
+    "name_citie": "MAGANGUÉ"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13458",
+    "name_citie": "MONTECRISTO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13549",
+    "name_citie": "PINILLOS"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13655",
+    "name_citie": "SAN JACINTO DEL CAUCA"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13810",
+    "name_citie": "TIQUISIO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13244",
+    "name_citie": "CARMEN DE BOLÍVAR"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13212",
+    "name_citie": "CÓRDOBA"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13248",
+    "name_citie": "EL GUAMO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13442",
+    "name_citie": "MARÍA LA BAJA"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13654",
+    "name_citie": "SAN JACINTO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13657",
+    "name_citie": "SAN JUAN NEPOMUCENO"
+  },
+  {
+    "name_state": "BOLIVAR",
+    "id_citie":  "13894",
+    "name_citie": "ZAMBRANO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15232",
+    "name_citie": "CHÍQUIZA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15187",
+    "name_citie": "CHIVATÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15204",
+    "name_citie": "CÓMBITA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15224",
+    "name_citie": "CUCAITA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15476",
+    "name_citie": "MOTAVITA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15500",
+    "name_citie": "OICATÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15646",
+    "name_citie": "SAMACÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15740",
+    "name_citie": "SIACHOQUE"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15762",
+    "name_citie": "SORA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15764",
+    "name_citie": "SORACÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15763",
+    "name_citie": "SOTAQUIRÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15814",
+    "name_citie": "TOCA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15001",
+    "name_citie": "TUNJA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15837",
+    "name_citie": "TUTA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15861",
+    "name_citie": "VENTAQUEMADA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15180",
+    "name_citie": "CHISCAS"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15223",
+    "name_citie": "CUBARÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15244",
+    "name_citie": "EL COCUY"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15248",
+    "name_citie": "EL ESPINO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15317",
+    "name_citie": "GUACAMAYAS"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15332",
+    "name_citie": "GÜICÁN"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15522",
+    "name_citie": "PANQUEBA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15377",
+    "name_citie": "LABRANZAGRANDE"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15518",
+    "name_citie": "PAJARITO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15533",
+    "name_citie": "PAYA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15550",
+    "name_citie": "PISBA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15090",
+    "name_citie": "BERBEO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15135",
+    "name_citie": "CAMPOHERMOSO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15455",
+    "name_citie": "MIRAFLORES"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15514",
+    "name_citie": "PÁEZ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15660",
+    "name_citie": "SAN EDUARDO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15897",
+    "name_citie": "ZETAQUIRA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15104",
+    "name_citie": "BOYACÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15189",
+    "name_citie": "CIÉNEGA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15367",
+    "name_citie": "JENESANO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15494",
+    "name_citie": "NUEVO COLÓN"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15599",
+    "name_citie": "RAMIRIQUÍ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15621",
+    "name_citie": "RONDÓN"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15804",
+    "name_citie": "TIBANÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15835",
+    "name_citie": "TURMEQUÉ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15842",
+    "name_citie": "UMBITA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15879",
+    "name_citie": "VIRACACHÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15172",
+    "name_citie": "CHINAVITA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15299",
+    "name_citie": "GARAGOA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15425",
+    "name_citie": "MACANAL"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15511",
+    "name_citie": "PACHAVITA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15667",
+    "name_citie": "SAN LUIS DE GACENO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15690",
+    "name_citie": "SANTA MARÍA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15097",
+    "name_citie": "BOAVITA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15218",
+    "name_citie": "COVARACHÍA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15403",
+    "name_citie": "LA UVITA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15673",
+    "name_citie": "SAN MATEO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15720",
+    "name_citie": "SATIVANORTE"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15723",
+    "name_citie": "SATIVASUR"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15753",
+    "name_citie": "SOATÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15774",
+    "name_citie": "SUSACÓN"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15810",
+    "name_citie": "TIPACOQUE"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15106",
+    "name_citie": "BRICEÑO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15109",
+    "name_citie": "BUENAVISTA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15131",
+    "name_citie": "CALDAS"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15176",
+    "name_citie": "CHIQUINQUIRÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15212",
+    "name_citie": "COPER"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15401",
+    "name_citie": "LA VICTORIA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15442",
+    "name_citie": "MARIPÍ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15480",
+    "name_citie": "MUZO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15507",
+    "name_citie": "OTANCHE"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15531",
+    "name_citie": "PAUNA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15572",
+    "name_citie": "PUERTO BOYACa"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15580",
+    "name_citie": "QUÍPAMA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15632",
+    "name_citie": "SABOYÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15676",
+    "name_citie": "SAN MIGUEL DE SEMA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15681",
+    "name_citie": "SAN PABLO BORBUR"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15832",
+    "name_citie": "TUNUNGUÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15022",
+    "name_citie": "ALMEIDA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15236",
+    "name_citie": "CHIVOR"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15322",
+    "name_citie": "GUATEQUE"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15325",
+    "name_citie": "GUAYATÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15380",
+    "name_citie": "LA CAPILLA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15761",
+    "name_citie": "SOMONDOCO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15778",
+    "name_citie": "SUTATENZA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15798",
+    "name_citie": "TENZA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15051",
+    "name_citie": "ARCABUCO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15185",
+    "name_citie": "CHITARAQUE"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15293",
+    "name_citie": "GACHANTIVÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15469",
+    "name_citie": "MONIQUIRÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15600",
+    "name_citie": "RÁQUIRA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15638",
+    "name_citie": "SÁCHICA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15664",
+    "name_citie": "SAN JOSÉ DE PARE"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15696",
+    "name_citie": "SANTA SOFÍA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15686",
+    "name_citie": "SANTANA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15776",
+    "name_citie": "SUTAMARCHÁN"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15808",
+    "name_citie": "TINJACÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15816",
+    "name_citie": "TOGÜÍ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15407",
+    "name_citie": "VILLA DE LEYVA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15047",
+    "name_citie": "AQUITANIA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15226",
+    "name_citie": "CUÍTIVA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15272",
+    "name_citie": "FIRAVITOBA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15296",
+    "name_citie": "GAMEZA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15362",
+    "name_citie": "IZA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15464",
+    "name_citie": "MONGUA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15466",
+    "name_citie": "MONGUÍ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15491",
+    "name_citie": "NOBSA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15542",
+    "name_citie": "PESCA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15759",
+    "name_citie": "SOGAMOSO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15806",
+    "name_citie": "TIBASOSA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15820",
+    "name_citie": "TÓPAGA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15822",
+    "name_citie": "TOTA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15087",
+    "name_citie": "BELÉN"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15114",
+    "name_citie": "BUSBANZÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15162",
+    "name_citie": "CERINZA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15215",
+    "name_citie": "CORRALES"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15238",
+    "name_citie": "DUITAMA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15276",
+    "name_citie": "FLORESTA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15516",
+    "name_citie": "PAIPA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15693",
+    "name_citie": "SAN ROSA VITERBO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15839",
+    "name_citie": "TUTAZÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15092",
+    "name_citie": "BETÉITIVA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15183",
+    "name_citie": "CHITA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15368",
+    "name_citie": "JERICÓ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15537",
+    "name_citie": "PAZ DE RÍO"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15757",
+    "name_citie": "SOCHA"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15755",
+    "name_citie": "SOCOTÁ"
+  },
+  {
+    "name_state": "BOYACÁ",
+    "id_citie":  "15790",
+    "name_citie": "TASCO"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17272",
+    "name_citie": "FILADELFIA"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17388",
+    "name_citie": "LA MERCED"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17442",
+    "name_citie": "MARMATO"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17614",
+    "name_citie": "RIOSUCIO"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17777",
+    "name_citie": "SUPÍA"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17433",
+    "name_citie": "MANZANARES"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17444",
+    "name_citie": "MARQUETALIA"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17446",
+    "name_citie": "MARULANDA"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17541",
+    "name_citie": "PENSILVANIA"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17042",
+    "name_citie": "ANSERMA"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17088",
+    "name_citie": "BELALCÁZAR"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17616",
+    "name_citie": "RISARALDA"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17665",
+    "name_citie": "SAN JOSÉ"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17877",
+    "name_citie": "VITERBO"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17174",
+    "name_citie": "CHINCHINa"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17001",
+    "name_citie": "MANIZALES"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17486",
+    "name_citie": "NEIRA"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17524",
+    "name_citie": "PALESTINA"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17873",
+    "name_citie": "VILLAMARiA"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17013",
+    "name_citie": "AGUADAS"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17050",
+    "name_citie": "ARANZAZU"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17513",
+    "name_citie": "PÁCORA"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17653",
+    "name_citie": "SALAMINA"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17380",
+    "name_citie": "LA DORADA"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17495",
+    "name_citie": "NORCASIA"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17662",
+    "name_citie": "SAMANÁ"
+  },
+  {
+    "name_state": "CALDAS",
+    "id_citie":  "17867",
+    "name_citie": "VICTORIA"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18029",
+    "name_citie": "ALBANIA"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18094",
+    "name_citie": "BELÉN DE LOS ANDAQUIES"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18150",
+    "name_citie": "CARTAGENA DEL CHAIRÁ"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18205",
+    "name_citie": "CURRILLO"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18247",
+    "name_citie": "EL DONCELLO"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18256",
+    "name_citie": "EL PAUJIL"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18001",
+    "name_citie": "FLORENCIA"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18410",
+    "name_citie": "LA MONTAÑITA"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18460",
+    "name_citie": "MILaN"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18479",
+    "name_citie": "MORELIA"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18592",
+    "name_citie": "PUERTO RICO"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18610",
+    "name_citie": "SAN JOSE DEL FRAGUA"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18753",
+    "name_citie": "SAN VICENTE DEL CAGUÁN"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18756",
+    "name_citie": "SOLANO"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18785",
+    "name_citie": "SOLITA"
+  },
+  {
+    "name_state": "CAQUETA",
+    "id_citie":  "18860",
+    "name_citie": "VALPARAISO"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085010",
+    "name_citie": "AGUAZUL"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085015",
+    "name_citie": "CHAMEZA"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085125",
+    "name_citie": "HATO COROZAL"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085136",
+    "name_citie": "LA SALINA"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085139",
+    "name_citie": "MANÍ"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085162",
+    "name_citie": "MONTERREY"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085225",
+    "name_citie": "NUNCHÍA"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085230",
+    "name_citie": "OROCUÉ"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085250",
+    "name_citie": "PAZ DE ARIPORO"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085263",
+    "name_citie": "PORE"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085279",
+    "name_citie": "RECETOR"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085300",
+    "name_citie": "SABANALARGA"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085315",
+    "name_citie": "SÁCAMA"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085325",
+    "name_citie": "SAN LUIS DE PALENQUE"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085400",
+    "name_citie": "TÁMARA"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085410",
+    "name_citie": "TAURAMENA"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085430",
+    "name_citie": "TRINIDAD"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085440",
+    "name_citie": "VILLANUEVA"
+  },
+  {
+    "name_state": "CASANARE",
+    "id_citie":  "085001",
+    "name_citie": "YOPAL"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19130",
+    "name_citie": "CAJIBÍO"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19256",
+    "name_citie": "EL TAMBO"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19392",
+    "name_citie": "LA SIERRA"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19473",
+    "name_citie": "MORALES"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19548",
+    "name_citie": "PIENDAMO"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19001",
+    "name_citie": "POPAYÁN"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19622",
+    "name_citie": "ROSAS"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19760",
+    "name_citie": "SOTARA"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19807",
+    "name_citie": "TIMBIO"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19110",
+    "name_citie": "BUENOS AIRES"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19142",
+    "name_citie": "CALOTO"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19212",
+    "name_citie": "CORINTO"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19455",
+    "name_citie": "MIRANDA"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19513",
+    "name_citie": "PADILLA"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19573",
+    "name_citie": "PUERTO TEJADA"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19698",
+    "name_citie": "SANTANDER DE QUILICHAO"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19780",
+    "name_citie": "SUAREZ"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19845",
+    "name_citie": "VILLA RICA"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19318",
+    "name_citie": "GUAPI"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19418",
+    "name_citie": "LOPEZ"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19809",
+    "name_citie": "TIMBIQUI"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19137",
+    "name_citie": "CALDONO"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19355",
+    "name_citie": "INZÁ"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19364",
+    "name_citie": "JAMBALO"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19517",
+    "name_citie": "PAEZ"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19585",
+    "name_citie": "PURACE"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19743",
+    "name_citie": "Silvia"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19821",
+    "name_citie": "TORIBIO"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19824",
+    "name_citie": "TOTORO"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19022",
+    "name_citie": "ALMAGUER"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19050",
+    "name_citie": "ARGELIA"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19075",
+    "name_citie": "BALBOA"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19100",
+    "name_citie": "BOLÍVAR"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19290",
+    "name_citie": "FLORENCIA"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19397",
+    "name_citie": "LA VEGA"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19450",
+    "name_citie": "MERCADERES"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19532",
+    "name_citie": "PATIA"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19533",
+    "name_citie": "PIAMONTE"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19693",
+    "name_citie": "SAN SEBASTIAN"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19701",
+    "name_citie": "SANTA ROSA"
+  },
+  {
+    "name_state": "CAUCA",
+    "id_citie":  "19785",
+    "name_citie": "SUCRE"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20045",
+    "name_citie": "BECERRIL"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20175",
+    "name_citie": "CHIMICHAGUA"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20178",
+    "name_citie": "CHIRIGUANA"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20228",
+    "name_citie": "CURUMANÍ"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20400",
+    "name_citie": "LA JAGUA DE IBIRICO"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20517",
+    "name_citie": "PAILITAS"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20787",
+    "name_citie": "TAMALAMEQUE"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20032",
+    "name_citie": "ASTREA"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20060",
+    "name_citie": "BOSCONIA"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20238",
+    "name_citie": "EL COPEY"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20250",
+    "name_citie": "EL PASO"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20013",
+    "name_citie": "AGUSTÍN CODAZZI"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20621",
+    "name_citie": "LA PAZ"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20443",
+    "name_citie": "MANAURE"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20570",
+    "name_citie": "PUEBLO BELLO"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20750",
+    "name_citie": "SAN DIEGO"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20001",
+    "name_citie": "VALLEDUPAR"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20011",
+    "name_citie": "AGUACHICA"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20295",
+    "name_citie": "GAMARRA"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20310",
+    "name_citie": "GONZÁLEZ"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20383",
+    "name_citie": "LA GLORIA"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20550",
+    "name_citie": "PELAYA"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20614",
+    "name_citie": "RÍO DE ORO"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20710",
+    "name_citie": "SAN ALBERTO"
+  },
+  {
+    "name_state": "CESAR",
+    "id_citie":  "20770",
+    "name_citie": "SAN MARTÍN"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27050",
+    "name_citie": "ATRATO"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27073",
+    "name_citie": "BAGADÓ"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27099",
+    "name_citie": "BOJAYA"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27245",
+    "name_citie": "EL CARMEN DE ATRATO"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27413",
+    "name_citie": "LLORÓ"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27425",
+    "name_citie": "MEDIO ATRATO"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27001",
+    "name_citie": "QUIBDÓ"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27600",
+    "name_citie": "RIO QUITO"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27006",
+    "name_citie": "ACANDÍ"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27086",
+    "name_citie": "BELÉN DE BAJIRA"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27150",
+    "name_citie": "CARMÉN DEL DARIÉN"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27615",
+    "name_citie": "RIOSUCIO"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27800",
+    "name_citie": "UNGUÍA"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27075",
+    "name_citie": "BAHÍA SOLANO"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27372",
+    "name_citie": "JURADÓ"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27495",
+    "name_citie": "NUQUÍ"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27025",
+    "name_citie": "ALTO BAUDÓ"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27077",
+    "name_citie": "BAJO BAUDÓ"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27250",
+    "name_citie": "El Litoral del San Juan"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27430",
+    "name_citie": "MEDIO BAUDÓ"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27135",
+    "name_citie": "CANTON DE SAN PABLO"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27160",
+    "name_citie": "CERTEGUI"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27205",
+    "name_citie": "CONDOTO"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27361",
+    "name_citie": "ITSMINA"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27450",
+    "name_citie": "MEDIO SAN JUAN"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27491",
+    "name_citie": "NÓVITA"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27580",
+    "name_citie": "RÍO FRÍO"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27660",
+    "name_citie": "SAN JOSÉ DEL PALMAR"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27745",
+    "name_citie": "SIPÍ"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27787",
+    "name_citie": "TADÓ"
+  },
+  {
+    "name_state": "CHOCO",
+    "id_citie":  "27810",
+    "name_citie": "UNION PANAMERICANA"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23807",
+    "name_citie": "TIERRALTA"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23855",
+    "name_citie": "VALENCIA"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23168",
+    "name_citie": "CHIMÁ"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23300",
+    "name_citie": "COTORRA"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23417",
+    "name_citie": "LORICA"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23464",
+    "name_citie": "MOMIL"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23586",
+    "name_citie": "PURÍSIMA"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23001",
+    "name_citie": "MONTERÍA"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23090",
+    "name_citie": "CANALETE"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23419",
+    "name_citie": "LOS CÓRDOBAS"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23500",
+    "name_citie": "MOÑITOS"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23574",
+    "name_citie": "PUERTO ESCONDIDO"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23672",
+    "name_citie": "SAN ANTERO"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23675",
+    "name_citie": "SAN BERNARDO DEL VIENTO"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23182",
+    "name_citie": "CHINÚ"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23660",
+    "name_citie": "SAHAGÚN"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23670",
+    "name_citie": "SAN ANDRÉS SOTAVENTO"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23068",
+    "name_citie": "AYAPEL"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23079",
+    "name_citie": "BUENAVISTA"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23350",
+    "name_citie": "LA APARTADA"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23466",
+    "name_citie": "MONTELÍBANO"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23555",
+    "name_citie": "PLANETA RICA"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23570",
+    "name_citie": "PUEBLO NUEVO"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23580",
+    "name_citie": "PUERTO LIBERTADOR"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23162",
+    "name_citie": "CERETÉ"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23189",
+    "name_citie": "CIÉNAGA DE ORO"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23678",
+    "name_citie": "SAN CARLOS"
+  },
+  {
+    "name_state": "CORDOBA",
+    "id_citie":  "23686",
+    "name_citie": "SAN PELAYO"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25183",
+    "name_citie": "CHOCONTÁ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25426",
+    "name_citie": "MACHETA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25436",
+    "name_citie": "MANTA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25736",
+    "name_citie": "SESQUILÉ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25772",
+    "name_citie": "SUESCA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25807",
+    "name_citie": "TIBIRITA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25873",
+    "name_citie": "VILLAPINZÓN"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25001",
+    "name_citie": "AGUA DE DIOS"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25307",
+    "name_citie": "GIRARDOT"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25324",
+    "name_citie": "GUATAQUÍ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25368",
+    "name_citie": "JERUSALÉN"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25483",
+    "name_citie": "NARIÑO"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25488",
+    "name_citie": "NILO"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25612",
+    "name_citie": "RICAURTE"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25815",
+    "name_citie": "TOCAIMA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25148",
+    "name_citie": "CAPARRAPÍ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25320",
+    "name_citie": "GUADUAS"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25572",
+    "name_citie": "PUERTO SALGAR"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25019",
+    "name_citie": "ALBÁN"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25398",
+    "name_citie": "LA PEÑA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25402",
+    "name_citie": "LA VEGA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25489",
+    "name_citie": "NIMAIMA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25491",
+    "name_citie": "NOCAIMA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25592",
+    "name_citie": "QUEBRADANEGRA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25658",
+    "name_citie": "SAN FRANCISCO"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25718",
+    "name_citie": "SASAIMA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25777",
+    "name_citie": "SUPATÁ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25851",
+    "name_citie": "ÚTICA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25862",
+    "name_citie": "VERGARA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25875",
+    "name_citie": "VILLETA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25293",
+    "name_citie": "GACHALA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25297",
+    "name_citie": "GACHETA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25299",
+    "name_citie": "GAMA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25322",
+    "name_citie": "GUASCA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25326",
+    "name_citie": "GUATAVITA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25372",
+    "name_citie": "JUNÍN"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25377",
+    "name_citie": "LA CALERA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25839",
+    "name_citie": "UBALÁ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25086",
+    "name_citie": "BELTRÁN"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25095",
+    "name_citie": "BITUIMA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25168",
+    "name_citie": "CHAGUANÍ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25328",
+    "name_citie": "GUAYABAL DE SIQUIMA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25580",
+    "name_citie": "PULI"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25662",
+    "name_citie": "SAN JUAN DE RÍO SECO"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25867",
+    "name_citie": "VIANÍ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25438",
+    "name_citie": "MEDINA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25530",
+    "name_citie": "PARATEBUENO"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25151",
+    "name_citie": "CAQUEZA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25178",
+    "name_citie": "CHIPAQUE"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25181",
+    "name_citie": "CHOACHÍ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25279",
+    "name_citie": "FOMEQUE"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25281",
+    "name_citie": "FOSCA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25335",
+    "name_citie": "GUAYABETAL"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25339",
+    "name_citie": "GUTIÉRREZ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25594",
+    "name_citie": "QUETAME"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25841",
+    "name_citie": "UBAQUE"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25845",
+    "name_citie": "UNE"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25258",
+    "name_citie": "EL PEÑÓN"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25394",
+    "name_citie": "LA PALMA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25513",
+    "name_citie": "PACHO"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25518",
+    "name_citie": "PAIME"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25653",
+    "name_citie": "SAN CAYETANO"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25823",
+    "name_citie": "TOPAIPI"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25871",
+    "name_citie": "VILLAGOMEZ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25885",
+    "name_citie": "YACOPÍ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25126",
+    "name_citie": "CAJICÁ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25175",
+    "name_citie": "CHÍA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25200",
+    "name_citie": "COGUA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25295",
+    "name_citie": "GACHANCIPÁ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25486",
+    "name_citie": "NEMOCoN"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25758",
+    "name_citie": "SOPÓ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25785",
+    "name_citie": "TABIO"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25817",
+    "name_citie": "TOCANCIPÁ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25899",
+    "name_citie": "ZIPAQUIRÁ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25099",
+    "name_citie": "BOJACÁ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25214",
+    "name_citie": "COTA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25260",
+    "name_citie": "EL ROSAL"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25269",
+    "name_citie": "FACATATIVÁ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25286",
+    "name_citie": "FUNZA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25430",
+    "name_citie": "MADRID"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25473",
+    "name_citie": "MOSQUERA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25769",
+    "name_citie": "SUBACHOQUE"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25799",
+    "name_citie": "TENJO"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25898",
+    "name_citie": "ZIPACoN"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25740",
+    "name_citie": "SIBATÉ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25754",
+    "name_citie": "SOACHA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25053",
+    "name_citie": "ARBELÁEZ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25120",
+    "name_citie": "CABRERA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25290",
+    "name_citie": "FUSAGASUGÁ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25312",
+    "name_citie": "GRANADA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25524",
+    "name_citie": "PANDI"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25535",
+    "name_citie": "PASCA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25649",
+    "name_citie": "SAN BERNARDO"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25743",
+    "name_citie": "SILVANIA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25805",
+    "name_citie": "TIBACUY"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25506",
+    "name_citie": "VENECIA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25035",
+    "name_citie": "ANAPOIMA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25040",
+    "name_citie": "ANOLAIMA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25599",
+    "name_citie": "APULO"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25123",
+    "name_citie": "CACHIPAY"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25245",
+    "name_citie": "EL COLEGIO"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25386",
+    "name_citie": "LA MESA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25596",
+    "name_citie": "QUIPILE"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25645",
+    "name_citie": "SAN ANTONIO DE TEQUENDAMA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25797",
+    "name_citie": "TENA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25878",
+    "name_citie": "VIOTÁ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25154",
+    "name_citie": "CARMEN DE CARUPA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25224",
+    "name_citie": "CUCUNUBÁ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25288",
+    "name_citie": "FÚQUENE"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25317",
+    "name_citie": "GUACHETÁ"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25407",
+    "name_citie": "LENGUAZAQUE"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25745",
+    "name_citie": "SIMIJACA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25779",
+    "name_citie": "SUSA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25781",
+    "name_citie": "SUTATAUSA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25793",
+    "name_citie": "TAUSA"
+  },
+  {
+    "name_state": "CUNDINAMARCA",
+    "id_citie":  "25843",
+    "name_citie": "UBATE"
+  },
+  {
+    "name_state": "GUAINIA",
+    "id_citie":  "94343",
+    "name_citie": "BARRANCO MINA"
+  },
+  {
+    "name_state": "GUAINIA",
+    "id_citie":  "94886",
+    "name_citie": "CACAHUAL"
+  },
+  {
+    "name_state": "GUAINIA",
+    "id_citie":  "94001",
+    "name_citie": "INÍRIDA"
+  },
+  {
+    "name_state": "GUAINIA",
+    "id_citie":  "94885",
+    "name_citie": "LA GUADALUPE"
+  },
+  {
+    "name_state": "GUAINIA",
+    "id_citie":  "94663",
+    "name_citie": "MAPIRIPaN"
+  },
+  {
+    "name_state": "GUAINIA",
+    "id_citie":  "94888",
+    "name_citie": "MORICHAL"
+  },
+  {
+    "name_state": "GUAINIA",
+    "id_citie":  "94887",
+    "name_citie": "PANA PANA"
+  },
+  {
+    "name_state": "GUAINIA",
+    "id_citie":  "94884",
+    "name_citie": "PUERTO COLOMBIA"
+  },
+  {
+    "name_state": "GUAINIA",
+    "id_citie":  "94883",
+    "name_citie": "SAN FELIPE"
+  },
+  {
+    "name_state": "GUAVIARE",
+    "id_citie":  "95015",
+    "name_citie": "CALAMAR"
+  },
+  {
+    "name_state": "GUAVIARE",
+    "id_citie":  "95025",
+    "name_citie": "EL RETORNO"
+  },
+  {
+    "name_state": "GUAVIARE",
+    "id_citie":  "95200",
+    "name_citie": "MIRAFLORES"
+  },
+  {
+    "name_state": "GUAVIARE",
+    "id_citie":  "95001",
+    "name_citie": "SAN JOSÉ DEL GUAVIARE"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41013",
+    "name_citie": "AGRADO"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41026",
+    "name_citie": "ALTAMIRA"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41298",
+    "name_citie": "GARZÓN"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41306",
+    "name_citie": "GIGANTE"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41319",
+    "name_citie": "GUADALUPE"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41548",
+    "name_citie": "PITAL"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41770",
+    "name_citie": "SUAZA"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41791",
+    "name_citie": "TARQUI"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41016",
+    "name_citie": "AIPE"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41020",
+    "name_citie": "ALGECIRAS"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41078",
+    "name_citie": "BARAYA"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41132",
+    "name_citie": "CAMPOALEGRE"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41206",
+    "name_citie": "COLOMBIA"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41349",
+    "name_citie": "HOBO"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41357",
+    "name_citie": "IQUIRA"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41001",
+    "name_citie": "NEIVA"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41524",
+    "name_citie": "PALERMO"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41615",
+    "name_citie": "RIVERA"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41676",
+    "name_citie": "SANTA MARÍA"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41799",
+    "name_citie": "TELLO"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41801",
+    "name_citie": "TERUEL"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41872",
+    "name_citie": "VILLAVIEJA"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41885",
+    "name_citie": "YAGUARÁ"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41378",
+    "name_citie": "LA ARGENTINA"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41396",
+    "name_citie": "LA PLATA"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41483",
+    "name_citie": "NÁTAGA"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41518",
+    "name_citie": "PAICOL"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41797",
+    "name_citie": "TESALIA"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41006",
+    "name_citie": "ACEVEDO"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41244",
+    "name_citie": "ELÍAS"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41359",
+    "name_citie": "ISNOS"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41503",
+    "name_citie": "OPORAPA"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41530",
+    "name_citie": "PALESTINA"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41551",
+    "name_citie": "PITALITO"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41660",
+    "name_citie": "SALADOBLANCO"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41668",
+    "name_citie": "SAN AGUSTÍN"
+  },
+  {
+    "name_state": "HUILA",
+    "id_citie":  "41807",
+    "name_citie": "TIMANÁ"
+  },
+  {
+    "name_state": "LA GUAJIRA",
+    "id_citie":  "44035",
+    "name_citie": "ALBANIA"
+  },
+  {
+    "name_state": "LA GUAJIRA",
+    "id_citie":  "44090",
+    "name_citie": "DIBULLA"
+  },
+  {
+    "name_state": "LA GUAJIRA",
+    "id_citie":  "44430",
+    "name_citie": "MAICAO"
+  },
+  {
+    "name_state": "LA GUAJIRA",
+    "id_citie":  "44560",
+    "name_citie": "MANAURE"
+  },
+  {
+    "name_state": "LA GUAJIRA",
+    "id_citie":  "44001",
+    "name_citie": "RIOHACHA"
+  },
+  {
+    "name_state": "LA GUAJIRA",
+    "id_citie":  "44847",
+    "name_citie": "URIBIA"
+  },
+  {
+    "name_state": "LA GUAJIRA",
+    "id_citie":  "44078",
+    "name_citie": "BARRANCAS"
+  },
+  {
+    "name_state": "LA GUAJIRA",
+    "id_citie":  "44098",
+    "name_citie": "DISTRACCION"
+  },
+  {
+    "name_state": "LA GUAJIRA",
+    "id_citie":  "44110",
+    "name_citie": "EL MOLINO"
+  },
+  {
+    "name_state": "LA GUAJIRA",
+    "id_citie":  "44279",
+    "name_citie": "FONSECA"
+  },
+  {
+    "name_state": "LA GUAJIRA",
+    "id_citie":  "44378",
+    "name_citie": "HATONUEVO"
+  },
+  {
+    "name_state": "LA GUAJIRA",
+    "id_citie":  "44420",
+    "name_citie": "LA JAGUA DEL PILAR"
+  },
+  {
+    "name_state": "LA GUAJIRA",
+    "id_citie":  "44650",
+    "name_citie": "SAN JUAN DEL CESAR"
+  },
+  {
+    "name_state": "LA GUAJIRA",
+    "id_citie":  "44855",
+    "name_citie": "URUMITA"
+  },
+  {
+    "name_state": "LA GUAJIRA",
+    "id_citie":  "44874",
+    "name_citie": "VILLANUEVA"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47058",
+    "name_citie": "ARIGUANÍ"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47170",
+    "name_citie": "CHIBOLO"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47460",
+    "name_citie": "NUEVA GRANADA"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47555",
+    "name_citie": "PLATO"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47660",
+    "name_citie": "SABANAS DE SAN ANGEL"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47798",
+    "name_citie": "TENERIFE"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47030",
+    "name_citie": "ALGARROBO"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47053",
+    "name_citie": "ARACATACA"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47189",
+    "name_citie": "CIÉNAGA"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47268",
+    "name_citie": "EL RETEN"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47288",
+    "name_citie": "FUNDACION"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47570",
+    "name_citie": "PUEBLO VIEJO"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47980",
+    "name_citie": "ZONA BANANERA"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47161",
+    "name_citie": "CERRO SAN ANTONIO"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47205",
+    "name_citie": "CONCORDIA"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47258",
+    "name_citie": "EL PIÑON"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47541",
+    "name_citie": "PEDRAZA"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47551",
+    "name_citie": "PIVIJAY"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47605",
+    "name_citie": "REMOLINO"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47675",
+    "name_citie": "SALAMINA"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47745",
+    "name_citie": "SITIONUEVO"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47960",
+    "name_citie": "ZAPAYAN"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47001",
+    "name_citie": "SANTA MARTA"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47245",
+    "name_citie": "EL BANCO"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47318",
+    "name_citie": "GUAMAL"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47545",
+    "name_citie": "PIJIÑO DEL CARMEN"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47692",
+    "name_citie": "SAN SEBASTIAN DE BUENAVISTA"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47703",
+    "name_citie": "SAN ZENON"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47707",
+    "name_citie": "SANTA ANA"
+  },
+  {
+    "name_state": "MAGDALENA",
+    "id_citie":  "47720",
+    "name_citie": "SANTA BARBARA DE PINTO"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050251",
+    "name_citie": "EL CASTILLO"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050270",
+    "name_citie": "EL DORADO"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050287",
+    "name_citie": "FUENTE DE ORO"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050313",
+    "name_citie": "GRANADA"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050350",
+    "name_citie": "LA MACARENA"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050370",
+    "name_citie": "LA URIBE"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050400",
+    "name_citie": "LEJANÍAS"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050325",
+    "name_citie": "MAPIRIPaN"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050330",
+    "name_citie": "MESETAS"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050450",
+    "name_citie": "PUERTO CONCORDIA"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050577",
+    "name_citie": "PUERTO LLERAS"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050590",
+    "name_citie": "PUERTO RICO"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050683",
+    "name_citie": "SAN JUAN DE ARAMA"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050711",
+    "name_citie": "VISTA HERMOSA"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050001",
+    "name_citie": "VILLAVICENCIO"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050006",
+    "name_citie": "ACACiAS"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050110",
+    "name_citie": "BARRANCA DE UPIA"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050150",
+    "name_citie": "CASTILLA LA NUEVA"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050226",
+    "name_citie": "CUMARAL"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050245",
+    "name_citie": "EL CALVARIO"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050318",
+    "name_citie": "GUAMAL"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050606",
+    "name_citie": "RESTREPO"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050680",
+    "name_citie": "SAN CARLOS GUAROA"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050686",
+    "name_citie": "SAN JUANITO"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050223",
+    "name_citie": "SAN LUIS DE CUBARRAL"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050689",
+    "name_citie": "SAN MARTÍN"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050124",
+    "name_citie": "CABUYARO"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050568",
+    "name_citie": "PUERTO GAITÁN"
+  },
+  {
+    "name_state": "META",
+    "id_citie":  "050573",
+    "name_citie": "PUERTO LoPEZ"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052240",
+    "name_citie": "CHACHAGUI"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052207",
+    "name_citie": "CONSACA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052254",
+    "name_citie": "EL PEÑOL"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052260",
+    "name_citie": "EL TAMBO"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052381",
+    "name_citie": "LA FLORIDA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052480",
+    "name_citie": "NARIÑO"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052001",
+    "name_citie": "PASTO"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052683",
+    "name_citie": "SANDONÁ"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052788",
+    "name_citie": "TANGUA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052885",
+    "name_citie": "YACUANQUER"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052036",
+    "name_citie": "ANCUYA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052320",
+    "name_citie": "GUAITARILLA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052385",
+    "name_citie": "LA LLANADA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052411",
+    "name_citie": "LINARES"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052418",
+    "name_citie": "LOS ANDES"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052435",
+    "name_citie": "MALLAMA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052506",
+    "name_citie": "OSPINA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052565",
+    "name_citie": "PROVIDENCIA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052612",
+    "name_citie": "RICAURTE"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052678",
+    "name_citie": "SAMANIEGO"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052699",
+    "name_citie": "SANTA CRUZ"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052720",
+    "name_citie": "SAPUYES"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052838",
+    "name_citie": "TUQUERRES"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052079",
+    "name_citie": "BARBACOAS"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052250",
+    "name_citie": "EL CHARCO"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052520",
+    "name_citie": "FRANCISCO PIZARRO"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052390",
+    "name_citie": "LA TOLA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052427",
+    "name_citie": "Magui"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052473",
+    "name_citie": "MOSQUERA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052490",
+    "name_citie": "OLAYA HERRERA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052621",
+    "name_citie": "ROBERTO PAYAN"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052696",
+    "name_citie": "SANTA BaRBARA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052835",
+    "name_citie": "TUMACO"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052019",
+    "name_citie": "ALBAN"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052051",
+    "name_citie": "ARBOLEDA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052083",
+    "name_citie": "BELEN"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052110",
+    "name_citie": "BUESACO"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052203",
+    "name_citie": "COLON"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052233",
+    "name_citie": "CUMBITARA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052256",
+    "name_citie": "EL ROSARIO"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052258",
+    "name_citie": "El Tablon de Gomez"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052378",
+    "name_citie": "LA CRUZ"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052399",
+    "name_citie": "LA UNION"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052405",
+    "name_citie": "LEIVA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052540",
+    "name_citie": "POLICARPA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052685",
+    "name_citie": "SAN BERNARDO"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052687",
+    "name_citie": "SAN LORENZO"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052693",
+    "name_citie": "SAN PABLO"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052694",
+    "name_citie": "SAN PEDRO DE CARTAGO"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052786",
+    "name_citie": "TAMINANGO"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052022",
+    "name_citie": "ALDANA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052210",
+    "name_citie": "CONTADERO"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052215",
+    "name_citie": "CÓRDOBA"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052224",
+    "name_citie": "CUASPUD"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052227",
+    "name_citie": "CUMBAL"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052287",
+    "name_citie": "FUNES"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052317",
+    "name_citie": "GUACHUCAL"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052323",
+    "name_citie": "GUALMATAN"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052352",
+    "name_citie": "ILES"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052354",
+    "name_citie": "IMUES"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052356",
+    "name_citie": "IPIALES"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052560",
+    "name_citie": "POTOSÍ"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052573",
+    "name_citie": "PUERRES"
+  },
+  {
+    "name_state": "NARIÑO",
+    "id_citie":  "052585",
+    "name_citie": "PUPIALES"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054051",
+    "name_citie": "ARBOLEDAS"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054223",
+    "name_citie": "CUCUTILLA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054313",
+    "name_citie": "GRAMALOTE"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054418",
+    "name_citie": "LOURDES"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054660",
+    "name_citie": "SALAZAR"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054680",
+    "name_citie": "SANTIAGO"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054871",
+    "name_citie": "VILLA CARO"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054109",
+    "name_citie": "BUCARASICA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054250",
+    "name_citie": "EL TARRA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054720",
+    "name_citie": "SARDINATA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054810",
+    "name_citie": "TIBÚ"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054003",
+    "name_citie": "ABREGO"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054128",
+    "name_citie": "CACHIRÁ"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054206",
+    "name_citie": "CONVENCIÓN"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054245",
+    "name_citie": "EL CARMEN"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054344",
+    "name_citie": "HACARÍ"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054385",
+    "name_citie": "LA ESPERANZA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054398",
+    "name_citie": "LA PLAYA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054498",
+    "name_citie": "OCAÑA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054670",
+    "name_citie": "SAN CALIXTO"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054800",
+    "name_citie": "TEORAMA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054001",
+    "name_citie": "CÚCUTA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054261",
+    "name_citie": "EL ZULIA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054405",
+    "name_citie": "LOS PATIOS"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054553",
+    "name_citie": "PUERTO SANTANDER"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054673",
+    "name_citie": "SAN CAYETANO"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054874",
+    "name_citie": "VILLA DEL ROSARIO"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054125",
+    "name_citie": "CÁCOTA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054174",
+    "name_citie": "CHITAGÁ"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054480",
+    "name_citie": "MUTISCUA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054518",
+    "name_citie": "PAMPLONA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054520",
+    "name_citie": "PAMPLONITA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054743",
+    "name_citie": "SILOS"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054099",
+    "name_citie": "BOCHALEMA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054172",
+    "name_citie": "CHINÁCOTA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054239",
+    "name_citie": "DURANIA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054347",
+    "name_citie": "HERRÁN"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054377",
+    "name_citie": "LABATECA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054599",
+    "name_citie": "RAGONVALIA"
+  },
+  {
+    "name_state": "NORTE DE SANTANDER",
+    "id_citie":  "054820",
+    "name_citie": "TOLEDO"
+  },
+  {
+    "name_state": "PUTUMAYO",
+    "id_citie":  "086219",
+    "name_citie": "COLÓN"
+  },
+  {
+    "name_state": "PUTUMAYO",
+    "id_citie":  "086001",
+    "name_citie": "MOCOA"
+  },
+  {
+    "name_state": "PUTUMAYO",
+    "id_citie":  "086320",
+    "name_citie": "ORITO"
+  },
+  {
+    "name_state": "PUTUMAYO",
+    "id_citie":  "086568",
+    "name_citie": "PUERTO ASIS"
+  },
+  {
+    "name_state": "PUTUMAYO",
+    "id_citie":  "086569",
+    "name_citie": "PUERTO CAICEDO"
+  },
+  {
+    "name_state": "PUTUMAYO",
+    "id_citie":  "086571",
+    "name_citie": "PUERTO GUZMAN"
+  },
+  {
+    "name_state": "PUTUMAYO",
+    "id_citie":  "086573",
+    "name_citie": "PUERTO LEGUIZAMO"
+  },
+  {
+    "name_state": "PUTUMAYO",
+    "id_citie":  "086755",
+    "name_citie": "SAN FRANCISCO"
+  },
+  {
+    "name_state": "PUTUMAYO",
+    "id_citie":  "086757",
+    "name_citie": "SAN MIGUEL"
+  },
+  {
+    "name_state": "PUTUMAYO",
+    "id_citie":  "086760",
+    "name_citie": "SANTIAGO"
+  },
+  {
+    "name_state": "PUTUMAYO",
+    "id_citie":  "086749",
+    "name_citie": "SIBUNDOY"
+  },
+  {
+    "name_state": "PUTUMAYO",
+    "id_citie":  "086865",
+    "name_citie": "VALLE DEL GUAMUEZ"
+  },
+  {
+    "name_state": "PUTUMAYO",
+    "id_citie":  "086885",
+    "name_citie": "VILLA GARZON"
+  },
+  {
+    "name_state": "QUINDIO",
+    "id_citie":  "63001",
+    "name_citie": "ARMENIA"
+  },
+  {
+    "name_state": "QUINDIO",
+    "id_citie":  "63111",
+    "name_citie": "BUENAVISTA"
+  },
+  {
+    "name_state": "QUINDIO",
+    "id_citie":  "63130",
+    "name_citie": "CALARCA"
+  },
+  {
+    "name_state": "QUINDIO",
+    "id_citie":  "63212",
+    "name_citie": "CoRDOBA"
+  },
+  {
+    "name_state": "QUINDIO",
+    "id_citie":  "63302",
+    "name_citie": "GeNOVA"
+  },
+  {
+    "name_state": "QUINDIO",
+    "id_citie":  "63548",
+    "name_citie": "PIJAO"
+  },
+  {
+    "name_state": "QUINDIO",
+    "id_citie":  "63272",
+    "name_citie": "FILANDIA"
+  },
+  {
+    "name_state": "QUINDIO",
+    "id_citie":  "63690",
+    "name_citie": "SALENTO"
+  },
+  {
+    "name_state": "QUINDIO",
+    "id_citie":  "63190",
+    "name_citie": "CIRCASIA"
+  },
+  {
+    "name_state": "QUINDIO",
+    "id_citie":  "63401",
+    "name_citie": "LA TEBAIDA"
+  },
+  {
+    "name_state": "QUINDIO",
+    "id_citie":  "63470",
+    "name_citie": "Montengro"
+  },
+  {
+    "name_state": "QUINDIO",
+    "id_citie":  "63594",
+    "name_citie": "QUIMBAYA"
+  },
+  {
+    "name_state": "RISARALDA",
+    "id_citie":  "66170",
+    "name_citie": "DOSQUEBRADAS"
+  },
+  {
+    "name_state": "RISARALDA",
+    "id_citie":  "66400",
+    "name_citie": "LA VIRGINIA"
+  },
+  {
+    "name_state": "RISARALDA",
+    "id_citie":  "66440",
+    "name_citie": "MARSELLA"
+  },
+  {
+    "name_state": "RISARALDA",
+    "id_citie":  "66001",
+    "name_citie": "PEREIRA"
+  },
+  {
+    "name_state": "RISARALDA",
+    "id_citie":  "66682",
+    "name_citie": "SANTA ROSA DE CABAL"
+  },
+  {
+    "name_state": "RISARALDA",
+    "id_citie":  "66045",
+    "name_citie": "APÍA"
+  },
+  {
+    "name_state": "RISARALDA",
+    "id_citie":  "66075",
+    "name_citie": "BALBOA"
+  },
+  {
+    "name_state": "RISARALDA",
+    "id_citie":  "66088",
+    "name_citie": "BELÉN DE UMBRÍA"
+  },
+  {
+    "name_state": "RISARALDA",
+    "id_citie":  "66318",
+    "name_citie": "GUÁTICA"
+  },
+  {
+    "name_state": "RISARALDA",
+    "id_citie":  "66383",
+    "name_citie": "LA CELIA"
+  },
+  {
+    "name_state": "RISARALDA",
+    "id_citie":  "66594",
+    "name_citie": "QUINCHiA"
+  },
+  {
+    "name_state": "RISARALDA",
+    "id_citie":  "66687",
+    "name_citie": "SANTUARIO"
+  },
+  {
+    "name_state": "RISARALDA",
+    "id_citie":  "66456",
+    "name_citie": "MISTRATÓ"
+  },
+  {
+    "name_state": "RISARALDA",
+    "id_citie":  "66572",
+    "name_citie": "PUEBLO RICO"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68176",
+    "name_citie": "CHIMA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68209",
+    "name_citie": "CONFINES"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68211",
+    "name_citie": "CONTRATACIÓN"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68245",
+    "name_citie": "EL GUACAMAYO"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68296",
+    "name_citie": "GALÁN"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68298",
+    "name_citie": "GAMBITA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68320",
+    "name_citie": "GUADALUPE"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68322",
+    "name_citie": "GUAPOTÁ"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68344",
+    "name_citie": "HATO"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68500",
+    "name_citie": "OIBA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68522",
+    "name_citie": "PALMAR"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68524",
+    "name_citie": "PALMAS DEL SOCORRO"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68720",
+    "name_citie": "SANTA HELENA DEL OPÓN"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68745",
+    "name_citie": "SIMACOTA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68755",
+    "name_citie": "SOCORRO"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68770",
+    "name_citie": "SUAITA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68147",
+    "name_citie": "CAPITANEJO"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68152",
+    "name_citie": "CARCASÍ"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68160",
+    "name_citie": "CEPITÁ"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68162",
+    "name_citie": "CERRITO"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68207",
+    "name_citie": "CONCEPCIÓN"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68266",
+    "name_citie": "ENCISO"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68318",
+    "name_citie": "GUACA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68425",
+    "name_citie": "MACARAVITA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68432",
+    "name_citie": "MÁLAGA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68468",
+    "name_citie": "MOLAGAVITA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68669",
+    "name_citie": "SAN ANDRÉS"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68684",
+    "name_citie": "SAN JOSÉ DE MIRANDA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68686",
+    "name_citie": "SAN MIGUEL"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68051",
+    "name_citie": "ARATOCA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68079",
+    "name_citie": "BARICHARA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68121",
+    "name_citie": "CABRERA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68167",
+    "name_citie": "CHARALÁ"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68217",
+    "name_citie": "COROMORO"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68229",
+    "name_citie": "CURITÍ"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68264",
+    "name_citie": "ENCINO"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68370",
+    "name_citie": "JORDÁN"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68464",
+    "name_citie": "MOGOTES"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68498",
+    "name_citie": "OCAMONTE"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68502",
+    "name_citie": "ONZAGA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68533",
+    "name_citie": "PÁRAMO"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68549",
+    "name_citie": "PINCHOTE"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68679",
+    "name_citie": "SAN GIL"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68682",
+    "name_citie": "SAN JOAQUÍN"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68855",
+    "name_citie": "VALLE DE SAN JOSÉ"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68872",
+    "name_citie": "VILLANUEVA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68081",
+    "name_citie": "BARRANCABERMEJA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68092",
+    "name_citie": "BETULIA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68235",
+    "name_citie": "EL CARMEN DE CHUCURÍ"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68575",
+    "name_citie": "PUERTO WILCHES"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68655",
+    "name_citie": "SABANA DE TORRES"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68689",
+    "name_citie": "SAN VICENTE DE CHUCURÍ"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68895",
+    "name_citie": "ZAPATOCA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68001",
+    "name_citie": "BUCARAMANGA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68132",
+    "name_citie": "CALIFORNIA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68169",
+    "name_citie": "CHARTA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68255",
+    "name_citie": "EL PLAYÓN"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68276",
+    "name_citie": "FLORIDABLANCA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68307",
+    "name_citie": "GIRÓN"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68406",
+    "name_citie": "LEBRÍJA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68418",
+    "name_citie": "LOS SANTOS"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68444",
+    "name_citie": "MATANZA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68547",
+    "name_citie": "PIEDECUESTA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68615",
+    "name_citie": "RIONEGRO"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68705",
+    "name_citie": "SANTA BÁRBARA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68780",
+    "name_citie": "SURATA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68820",
+    "name_citie": "TONA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68867",
+    "name_citie": "VETAS"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68013",
+    "name_citie": "AGUADA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68020",
+    "name_citie": "ALBANIA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68077",
+    "name_citie": "BARBOSA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68101",
+    "name_citie": "BOLÍVAR"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68179",
+    "name_citie": "CHIPATÁ"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68190",
+    "name_citie": "CIMITARRA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68250",
+    "name_citie": "EL PEÑÓN"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68271",
+    "name_citie": "FLORIÁN"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68324",
+    "name_citie": "GUAVATÁ"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68327",
+    "name_citie": "GuEPSA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68368",
+    "name_citie": "JESÚS MARÍA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68377",
+    "name_citie": "LA BELLEZA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68397",
+    "name_citie": "LA PAZ"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68385",
+    "name_citie": "LANDÁZURI"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68572",
+    "name_citie": "PUENTE NACIONAL"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68573",
+    "name_citie": "PUERTO PARRA"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68673",
+    "name_citie": "SAN BENITO"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68773",
+    "name_citie": "SUCRE"
+  },
+  {
+    "name_state": "SANTANDER",
+    "id_citie":  "68861",
+    "name_citie": "VÉLEZ"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70265",
+    "name_citie": "GUARANDA"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70429",
+    "name_citie": "MAJAGUAL"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70771",
+    "name_citie": "SUCRE"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70230",
+    "name_citie": "CHALÁN"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70204",
+    "name_citie": "COLOSO"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70473",
+    "name_citie": "MORROA"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70508",
+    "name_citie": "OVEJAS"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70001",
+    "name_citie": "SINCELEJO"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70221",
+    "name_citie": "COVEÑAS"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70523",
+    "name_citie": "PALMITO"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70713",
+    "name_citie": "SAN ONOFRE"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70820",
+    "name_citie": "SANTIAGO DE TOLÚ"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70823",
+    "name_citie": "TOLÚ VIEJO"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70110",
+    "name_citie": "BUENAVISTA"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70215",
+    "name_citie": "COROZAL"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70233",
+    "name_citie": "EL ROBLE"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70235",
+    "name_citie": "GALERAS"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70418",
+    "name_citie": "LOS PALMITOS"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70670",
+    "name_citie": "SAMPUÉS"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70702",
+    "name_citie": "SAN JUAN BETULIA"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70717",
+    "name_citie": "SAN PEDRO"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70742",
+    "name_citie": "SINCÉ"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70124",
+    "name_citie": "CAIMITO"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70400",
+    "name_citie": "LA UNIÓN"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70678",
+    "name_citie": "SAN BENITO ABAD"
+  },
+  {
+    "name_state": "SUCRE",
+    "id_citie":  "70708",
+    "name_citie": "SAN MARCOS"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73030",
+    "name_citie": "AMBALEMA"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73055",
+    "name_citie": "ARMERO"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73270",
+    "name_citie": "FALAN"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73283",
+    "name_citie": "FRESNO"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73349",
+    "name_citie": "HONDA"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73443",
+    "name_citie": "MARIQUITA"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73520",
+    "name_citie": "PALOCABILDO"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73148",
+    "name_citie": "CARMEN DE APICALÁ"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73226",
+    "name_citie": "CUNDAY"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73352",
+    "name_citie": "ICONONZO"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73449",
+    "name_citie": "MELGAR"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73873",
+    "name_citie": "VILLARRICA"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73067",
+    "name_citie": "ATACO"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73168",
+    "name_citie": "CHAPARRAL"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73217",
+    "name_citie": "COYAIMA"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73483",
+    "name_citie": "NATAGAIMA"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73504",
+    "name_citie": "ORTEGA"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73555",
+    "name_citie": "PLANADAS"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73616",
+    "name_citie": "RIOBLANCO"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73622",
+    "name_citie": "RONCESVALLES"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73675",
+    "name_citie": "SAN ANTONIO"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73026",
+    "name_citie": "ALVARADO"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73043",
+    "name_citie": "ANZOÁTEGUI"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73124",
+    "name_citie": "CAJAMARCA"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73200",
+    "name_citie": "COELLO"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73268",
+    "name_citie": "ESPINAL"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73275",
+    "name_citie": "FLANDES"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73001",
+    "name_citie": "IBAGUe"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73547",
+    "name_citie": "PIEDRAS"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73624",
+    "name_citie": "ROVIRA"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73678",
+    "name_citie": "SAN LUIS"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73854",
+    "name_citie": "VALLE DE SAN JUAN"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73024",
+    "name_citie": "ALPUJARRA"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73236",
+    "name_citie": "DOLORES"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73319",
+    "name_citie": "GUAMO"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73563",
+    "name_citie": "PRADO"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73585",
+    "name_citie": "PURIFICACIÓN"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73671",
+    "name_citie": "SALDAÑA"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73770",
+    "name_citie": "SUÁREZ"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73152",
+    "name_citie": "CASABIANCA"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73347",
+    "name_citie": "HERVEO"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73408",
+    "name_citie": "LeRIDA"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73411",
+    "name_citie": "LiBANO"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73461",
+    "name_citie": "MURILLO"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73686",
+    "name_citie": "SANTA ISABEL"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73861",
+    "name_citie": "VENADILLO"
+  },
+  {
+    "name_state": "TOLIMA",
+    "id_citie":  "73870",
+    "name_citie": "VILLAHERMOSA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76036",
+    "name_citie": "ANDALUCÍA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76111",
+    "name_citie": "BUGA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76113",
+    "name_citie": "BUGALAGRANDE"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76126",
+    "name_citie": "CALIMA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76248",
+    "name_citie": "EL CERRITO"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76306",
+    "name_citie": "GINEBRA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76318",
+    "name_citie": "GUACARÍ"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76606",
+    "name_citie": "RESTREPO"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76616",
+    "name_citie": "RIOFRIO"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76670",
+    "name_citie": "SAN PEDRO"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76828",
+    "name_citie": "TRUJILLO"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76834",
+    "name_citie": "TULUÁ"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76890",
+    "name_citie": "YOTOCO"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76020",
+    "name_citie": "ALCALa"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76041",
+    "name_citie": "ANSERMANUEVO"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76054",
+    "name_citie": "ARGELIA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76100",
+    "name_citie": "BOLÍVAR"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76147",
+    "name_citie": "CARTAGO"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76243",
+    "name_citie": "EL ÁGUILA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76246",
+    "name_citie": "EL CAIRO"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76250",
+    "name_citie": "EL DOVIO"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76400",
+    "name_citie": "LA UNIÓN"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76403",
+    "name_citie": "LA VICTORIA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76497",
+    "name_citie": "OBANDO"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76622",
+    "name_citie": "ROLDANILLO"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76823",
+    "name_citie": "TORO"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76845",
+    "name_citie": "ULLOA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76863",
+    "name_citie": "VERSALLES"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76895",
+    "name_citie": "ZARZAL"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76109",
+    "name_citie": "BUENAVENTURA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76122",
+    "name_citie": "CAICEDONIA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76736",
+    "name_citie": "SEVILLA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76001",
+    "name_citie": "CALI"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76130",
+    "name_citie": "CANDELARIA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76233",
+    "name_citie": "DAGUA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76275",
+    "name_citie": "FLORIDA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76364",
+    "name_citie": "JAMUNDÍ"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76377",
+    "name_citie": "LA CUMBRE"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76520",
+    "name_citie": "PALMIRA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76563",
+    "name_citie": "PRADERA"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76869",
+    "name_citie": "VIJES"
+  },
+  {
+    "name_state": "VALLE DEL CAUCA",
+    "id_citie":  "76892",
+    "name_citie": "YUMBO"
+  },
+  {
+    "name_state": "VAUPES",
+    "id_citie":  "97161",
+    "name_citie": "CARURU"
+  },
+  {
+    "name_state": "VAUPES",
+    "id_citie":  "97001",
+    "name_citie": "MITÚ"
+  },
+  {
+    "name_state": "VAUPES",
+    "id_citie":  "97511",
+    "name_citie": "PACOA"
+  },
+  {
+    "name_state": "VAUPES",
+    "id_citie":  "97777",
+    "name_citie": "PAPUNAHUA"
+  },
+  {
+    "name_state": "VAUPES",
+    "id_citie":  "97666",
+    "name_citie": "TARAIRA"
+  },
+  {
+    "name_state": "VAUPES",
+    "id_citie":  "97889",
+    "name_citie": "YAVARATÉ"
+  },
+  {
+    "name_state": "VICHADA",
+    "id_citie":  "99773",
+    "name_citie": "CUMARIBO"
+  },
+  {
+    "name_state": "VICHADA",
+    "id_citie":  "99524",
+    "name_citie": "LA PRIMAVERA"
+  },
+  {
+    "name_state": "VICHADA",
+    "id_citie":  "99001",
+    "name_citie": "PUERTO CARREÑO"
+  },
+  {
+    "name_state": "VICHADA",
+    "id_citie":  "99624",
+    "name_citie": "SANTA ROSALÍA"
+  }
+ 
+    ]
+}

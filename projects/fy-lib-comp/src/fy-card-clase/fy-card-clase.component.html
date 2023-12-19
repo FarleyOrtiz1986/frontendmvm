@@ -1,0 +1,19 @@
+<div class="container-movie">
+    <div [style.background-image]="'url(' + img + ')'" class="bg-img-movie">
+        <div class="bg-grad-movie">
+            <span class=" material-icons info-movie " rel="tooltip" title="{{textInfo}}">
+                add
+            </span>
+            <span  (click)="starVideo()" class=" material-icons play-movie ">
+                play_arrow
+            </span>
+            <div class="  mx-2  bg-text-movie" style="color: var(--fy-primary-dark);">
+                {{textTitle}}
+                
+               
+
+            </div>
+        </div>
+
+    </div>
+</div>

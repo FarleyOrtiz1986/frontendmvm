@@ -1,0 +1,26 @@
+
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+
+.label-ckeckbox{
+    margin-left: 5px;
+}
+
+.fy-checkbox{
+    accent-color: var(--fy-primary);
+    height: 20px; /* not needed */
+    width: 20px; /* not needed */
+}
+
+
+.checkbox-disabled {
+    pointer-events: none; /* Deshabilita eventos del mouse */
+}
+
+
+
+
+         
+

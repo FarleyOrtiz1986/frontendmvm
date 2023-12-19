@@ -1,0 +1,63 @@
+
+.content-card-list-crm{
+    max-height: 90vh; overflow-y: auto; border-radius: var(--border-radius); margin: 0px; padding: 0px;
+    padding-top: 10px !important;
+}
+.card-list-crm{
+    border-radius: var(--border-radius); padding: 8px; margin: 4px; background-color: rgba(228, 226, 226, 0.589);
+    
+}
+
+.card-coment{
+    border-radius: var(--fy-border-radius); padding: 8px; background-color: rgba(255, 255, 255, 0.856); margin-bottom: 4px !important;
+}
+
+.selected-card {
+    background-color: #e0e0e0; /* Puedes ajustar el color de fondo según tus preferencias */
+    border: 2px solid #2196f3; /* Puedes ajustar el color del borde según tus preferencias */
+  }
+
+.card-list-crm-load{
+    border-radius: var(--border-radius);  margin: 4px; height: 70px;
+}
+.name-list-crm{
+    font-size: 14px; font-weight: 500;
+}
+
+.asinged-list-crm{
+    font-size: 12px; margin-top: 4px !important;
+}
+
+.ultima-llamada-list-crm{
+    font-size: 12px; color: var(--fy-primary); font-weight: 500; margin-top: 4px !important;
+}
+
+
+.box-menu-list-clientes-crm {
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    right: 0;
+    box-shadow: -2px 6px 19px 1px rgba(0,0,0,0.75);
+  }
+
+  .horizontal-menu-clientes-container {
+    position: fixed;
+    top: 9vh;
+    margin-left: 4px;
+    width: 23%;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-radius: var(--fy-border-radius);
+    padding: 4px;
+    background-color: white;
+   
+}
+
+
+.fondo-p{
+    margin-left: 10px; border-radius: 4px; background-color: rgba(0, 0, 0, 0.082);
+                                    padding-left: 5px; padding-right: 5px; margin-top: 5px; margin-bottom: 5px;
+}

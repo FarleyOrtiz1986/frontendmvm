@@ -1,0 +1,108 @@
+<fy-auth [title]="'CREAR CUENTA'" [subTitle]="'Y disfrute de tod os los beneficios'">
+    <img src="assets/img/logolong.png" alt="" class="img-logo-auth img-fluid" loading="lazy" img-logo-auth>
+    <form [formGroup]="formRegister" (ngSubmit)="actionForm()" form-auth>
+        <div class="row">
+            <div class="col-12">
+                <h6 class="float-start fw-bold mt-1">CREAR CUENTA</h6>
+                <ng-container *ngIf="padre != undefined">
+                    <fy-button (click)="visibleModalProfile = !visibleModalProfile"
+                    [type]="'button'" [fyClass]="'btn btn-outline-info btn-sm float-end text-black'">
+                        Mi lider
+                        <i class="fa-solid fa-arrow-right "></i>
+                    </fy-button>
+                </ng-container>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-5">
+                <div class="form-group mt-1">
+                    <fy-label-form>Nombres</fy-label-form>
+                    <fy-input formControlName="name" [id]="'name'" [type]="'text'"></fy-input>
+                    <fy-error-form [visible]="submitedForm" [errors]="name!.errors"></fy-error-form>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="form-group mt-1">
+                    <fy-label-form>Apellidos</fy-label-form>
+                    <fy-input formControlName="lastName" [id]="'lastName'" [type]="'text'"></fy-input>
+                    <fy-error-form [visible]="submitedForm" [errors]="lastName!.errors"></fy-error-form>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="form-group mt-1">
+                    <fy-label-form>Correo electrónico</fy-label-form>
+                    <fy-input formControlName="email" [id]="'email'"  [type]="'email'"></fy-input>
+                    <fy-error-form [visible]="submitedForm" [errors]="email!.errors"></fy-error-form>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="form-group mt-1">
+                    <fy-label-form>Teléfono </fy-label-form>
+                    <fy-input formControlName="phone" [id]="'phone'"  [type]="'text'"></fy-input>
+                    <fy-error-form [visible]="submitedForm" [errors]="phone!.errors"></fy-error-form>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="form-group mt-1">
+                    <fy-label-form>Whatsapp</fy-label-form>
+                    <fy-input formControlName="whatsapp" [id]="'whatsapp'"  [type]="'text'"></fy-input>
+                    <fy-error-form [visible]="submitedForm" [errors]="whatsapp!.errors"></fy-error-form>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="form-group mt-1">
+                    <fy-label-form>Contraseña</fy-label-form>
+                    <fy-input formControlName="password" [id]="'password'"  [type]="'password'"></fy-input>
+                    <fy-error-form [visible]="submitedForm" [errors]="password!.errors"></fy-error-form>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="form-group mt-1">
+                    <fy-label-form>Repita la Contraseña</fy-label-form>
+                    <fy-input formControlName="repeatPassword" [id]="'repeatPassword'"  [type]="'password'"></fy-input>
+                    <fy-error-form [visible]="submitedForm" [errors]="repeatPassword!.errors"></fy-error-form>
+                </div>
+            </div>
+            <div class="col-md-10 py-3">
+                <div class="row m-0 p-0">
+                    <div class="col-auto m-0 p-0">
+                        <fy-checkbox style="font-size: 13px;" formControlName="policies" [id]="'policies'"
+                            [checked]="false" [label]="'Estoy deacuerdo con'">
+                        </fy-checkbox>
+                    </div>
+                    <div class="col-auto m-0 p-0">
+                        <a href="assets/docs/TERMINOS Y CONDICIONES CHAT FINANCIERO.pdf" target="_blank"
+                            style="margin-top: 3px; padding: 0px; color: var(--fy-primary); font-size: 13px; font-weight: bold;">
+                            &nbsp; los terminos y condiciones
+                        </a>
+                    </div>
+                </div>
+                <fy-error-form [visible]="submitedForm" [errors]="policies!.errors"></fy-error-form>
+            </div>
+            <div class="col-md-10 ">
+                <fy-button [type]="'submit'" [fyClass]="'btn btn-success w-100 spacing'">
+                    INGRESAR
+                </fy-button>
+            </div>
+            <div class="row m-0 p-0">
+                <div class="col-auto m-0 p-0">
+                    <a href="/" class="margin-auto"
+                        style="margin-top: 3px; padding: 0px; color: var(--fy-primary); font-size: 13px; ">
+                        Ya tengo una cuenta.
+                    </a>
+                </div>
+               
+            </div>
+        </div>
+    </form>
+</fy-auth>
+<fy-modal [fy_trans]="true" [id]="'visibleModalProfile'"  [visible]="visibleModalProfile">
+    <div class="row d-flex justify-content-center align-items-center w-100" modal-body-trans>
+        <div class="col-12 col-sm-10 col-md-5" >
+            <ng-container *ngIf="padre !== undefined"></ng-container>
+           <fy-card-profile [object]="padre"  ></fy-card-profile>
+        </div>
+    </div>
+</fy-modal>
+
+

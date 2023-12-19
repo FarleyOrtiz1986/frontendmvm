@@ -1,0 +1,26 @@
+<!-- {{name}}
+
+<div class="wrapper">
+  <div class="row mp0">
+    <div class="col-auto mp0"> -->
+      <!-- <input type="file" id="file-input" (change)="onChange($event)" #fileInput> -->
+      <!-- <input type="file" class="form-control"  (change)="onChange($event)"  #fileInput>
+      <label for="file-input">
+        <span  class="material-icons text-success add">
+          attach_file
+        </span>
+        <span></span>
+      </label>
+    </div>
+    <div class="col mp0 d-flex justify-content-center align-items-center">
+      <p class="mp0">{{name}}</p>
+    </div>
+    <div *ngIf="iconRemove" class="col-auto mp0">
+      <span (click)="removeFile()" class="material-icons remove text-danger">
+        do_not_disturb_on
+      </span>
+    </div>
+  </div>
+</div> -->
+
+<input type="file" [id]="id" class="form-control custom-file-input"  (change)="onChange($event)"  #fileInput>

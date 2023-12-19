@@ -1,0 +1,10 @@
+.estate{
+    background-color: var(--fy-success);
+    box-shadow: var(--fy-box-shadow);
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 2px;
+}

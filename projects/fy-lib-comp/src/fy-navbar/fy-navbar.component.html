@@ -1,0 +1,37 @@
+<!-- start: Navbar -->
+<nav class="px-3 py-1 ">
+    <!-- <span class="icon material-icons sidebar-toggle me-3 d-block d-md-none">menu</span> -->
+    <h6 class="fw-bold mb-0 me-auto" style="color: var(--fy-primary); position: relative;">
+        <div class="row mp-0">
+            <div class="col-auto mp-0">
+                <!--  -->
+                <span *ngIf="showMenuVisible"  (click)="showMenu()"
+                  class=" material-icons text-primary-dark" 
+                  style="font-size: 40px; cursor: pointer;" >
+                    menu
+                </span>
+            </div>
+            <div class="col-auto mp-0">
+                <span style="font-weight: normal; font-size: 12px;">Administrador</span>
+                <br>
+                {{currentPage}}
+            </div>
+        </div>
+    </h6>
+    <ng-container *ngIf="typeUser == 'User'">
+        <div class="row mp0">
+            <div class="col-12 mp0">
+                <h6 class="fw-bold text-primary mx-2">
+                    {{name}}
+                    <br>
+                    <badge [fyClass]="fyClassBadge" [textEstate]='textEstate'></badge>
+                </h6>
+            </div>
+        </div>
+    </ng-container>
+
+    <user-dropdown-nabvar (goToProfileEventEmitter)="goToProfile()" (goToLogoutEventEmitter)="goToLogout()"
+        [imgProfile]="imgProfile" [typeUser]="typeUser" [name]="name" [fyClassBadge]="fyClassBadge"
+        [textEstate]='textEstate'>
+    </user-dropdown-nabvar>
+</nav>

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/fy-lib-comp",
+  "lib": {
+    "entryFile": "src/public-api.ts"
+  },
+  "assets": [
+    "src/assets/css/fy-css.css",
+    "src/assets/img/bg-auth.jpg"
+  ]
+  
+  
+}

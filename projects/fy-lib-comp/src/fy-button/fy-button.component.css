@@ -1,0 +1,110 @@
+.btn{
+    margin: 0px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    border-radius: 21px !important;
+    font-weight: 500;
+    /* border-style: none;  */
+  } 
+
+  .btn-sm{
+    margin: 0px !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    border-radius: 21px !important;
+    font-weight: 400;
+    /* border-style: none;  */
+  } 
+ 
+   .btn:hover{
+    /* box-shadow: 0 3px px 3px rgba(64, 60, 67, 0.603); */
+    /* box-shadow: -6px 14px 12px 2px rgba(90, 90, 90, .12); */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: var(--fy-box-shadow-button);
+    
+  } 
+
+  /* .btn-success{
+    background-color: var(--fy-success);
+  } */
+
+  .spacing{
+    letter-spacing: 0.25em;
+  }
+
+
+/* Botones rellenos (solid) */
+.btn-primary {
+  background: linear-gradient(to right, #ff6600, #ffcc00);
+  border: none;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: linear-gradient(to right, #333, #666);
+  border: none;
+  color: #fff;
+}
+
+.btn-success {
+  background: linear-gradient(to right, #3b863e, #8ac04b);
+  border: none;
+  color: #fff;
+}
+
+.btn-danger {
+  background: linear-gradient(to right, #f44336, #e91e63);
+  border: none;
+  color: #fff;
+}
+
+.btn-warning {
+  background: linear-gradient(to right, #ff9800, #ffc107);
+  border: none;
+  color: #fff;
+}
+
+.btn-info {
+  background: linear-gradient(to right, #007bff, #17a2b8);
+  border: none;
+  color: #fff;
+}
+
+/* Botones con estilo de contorno (outline) */
+.btn-outline-primary {
+  background: none;
+  border: 1px solid #ff6600;
+  color: #ff6600;
+}
+
+.btn-outline-secondary {
+  background: none;
+  border: 1px solid #333;
+  color: #333;
+}
+
+.btn-outline-success {
+  background: none;
+  border: 1px solid #4caf50;
+  color: #4caf50;
+}
+
+.btn-outline-danger {
+  background: none;
+  border: 1px solid #f44336;
+  color: #f44336;
+}
+
+.btn-outline-warning {
+  background: none;
+  border: 1px solid #ff9800;
+  color: #ff9800;
+}
+
+.btn-outline-info {
+  background: none;
+  border: 1px solid #007bff;
+  color: #007bff;
+}

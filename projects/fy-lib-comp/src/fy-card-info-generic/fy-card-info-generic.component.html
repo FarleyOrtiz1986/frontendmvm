@@ -1,0 +1,53 @@
+<div class="card mt-4">
+   
+    <div class="card-body p-3">
+       <ng-content select="[dropdown-card-info-generic]"></ng-content>
+        <div class="d-flex" >
+            <div class="avatar avatar-lg">
+                <img alt="Image placeholder" class="img-fluid" src="{{imgCardInfoGeneric}}" loading="lazy">
+            </div>
+            <div class="row mp-0">
+                <div class="col mp-0">
+                    <div class="ms-2 w-100" >
+                        <h5 class="mb-0 fw-bold">{{title}} <strong *ngIf="cantidadLicencias" class="text-primary">  {{cantidadLicencias}}</strong> </h5>
+                       
+                        <p *ngIf="textEstateBadge != 'Enviada' && textEstateBadge != 'Pendiente'  && textEstateBadge != 'Rechazada'  "   class="text-xs mb-0 text-black ">
+                           
+                            <strong>Inicia</strong>  
+                            <ng-container *ngIf="fechaInicial && fechaInicial!.length > 0">
+                                {{fechaInicial | date:'mediumDate' }} 
+                            </ng-container>
+                            <ng-container *ngIf="!(fechaInicial && fechaInicial!.length > 0)">
+                                Fecha sin determinar
+                            </ng-container>
+                            <br>
+                            <strong>Finaliza</strong> 
+                            <ng-container *ngIf="fechaFinal && fechaFinal!.length > 0">
+                                {{fechaFinal | date:'mediumDate'}}
+                            </ng-container>
+                            <ng-container *ngIf="!(fechaFinal && fechaFinal!.length > 0)">
+                                Fecha sin determinar
+                            </ng-container>
+                            
+                        </p>
+                        <p *ngIf="!(textEstateBadge != 'Enviada' && textEstateBadge != 'Pendiente'  && textEstateBadge != 'Rechazada')  "   class="text-xs mb-0 text-black ">
+                            <strong>Inicia</strong>  Fecha sin determinar 
+                            <br>
+                            <strong>Finaliza</strong>  Fecha sin determinar 
+                        </p>
+                        <span *ngIf="cantidadLicenciasCongeladas" >Licencias congeladas: {{cantidadLicenciasCongeladas}}</span>
+                    </div>
+                </div>
+                <div class="col-auto mp-0">
+                    <badge  [fyClass]="fyClassBadge" [textEstate]="textEstateBadge"></badge>
+                </div>
+            </div>
+        </div>
+        <div class="w-100">
+            <div style="display: flex;" class=" bg-mesage text-white mt-3">
+                <span class=" material-icons text-white  mp-0" style="margin-right: 10px !important;">comment </span>
+                {{message}}
+            </div>
+        </div>
+    </div>
+</div>
